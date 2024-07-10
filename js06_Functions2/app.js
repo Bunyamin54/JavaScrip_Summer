@@ -34,6 +34,8 @@ console.log("***Arrow Function ***")
 
 
 //* Eksempel 3  Calculator  birdern fazla durumlarda switch case durumu 
+const add= (n1, n2)  => n1+ n2
+
 
 const compute = (n1, n2, operator) => {
 let result = 0
@@ -50,6 +52,8 @@ let result = 0
         default:
             break;
     }
+
+    return result
 
 }
 
