@@ -26,7 +26,8 @@ const h= Number (prompt("h:"))
 const r= Number (prompt("r:"))
 
 
-const volume= (radius, height) => Math.PI * radius * r * height
+const volume= (r, h) => Math.PI * r * r * h
 
 
-console.log("Volume:" , volume(r, h))
+console.log("Volume:" , volume(r, h).toFixed(2))
+console.log("Volume:" , volume(r, h).toPrecision(5)) // * kac basamakli istersek
