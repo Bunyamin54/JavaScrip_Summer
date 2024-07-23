@@ -145,3 +145,18 @@
             console.log(pName,price)
         }  
         print(data)
+
+
+        //? Destructuring in Array
+
+
+        const names = ["Ahmet", "Mehmet", "Ismet" , "Saffet"]
+
+        //? Klasik yontem
+
+        const ismet = names[2]  //* siraya bagimli reactda useState hooku icin kullanimi var - ismin onemi yok siranin onemi var, bosluk birakarar istedigimiz indexe gideriz
+        console.log(ismet)
+
+        const [ahmo , , ismo, saffo] = names
+
+        console.log(ahmo, ismo, saffo)
