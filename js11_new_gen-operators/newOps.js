@@ -220,9 +220,11 @@
 
   console.log(tasitlar1)
 
+ 
+
   const cumle = "Olmak yada olmamak"
 
-  const karakter = [...cumle]
+    const karakter = [...cumle]
 
-  console.log(karakter)
-  console.log(cumle)
+    console.log(karakter)
+    console.log(cumle)
