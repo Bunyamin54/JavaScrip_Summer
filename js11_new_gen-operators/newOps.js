@@ -247,3 +247,23 @@ hisNumbers.push(7)
 console.log("MY:",myNumbers)
 console.log("HER:",herNumbers)
 console.log("HIS:",hisNumbers)
+
+
+//? Object copyings
+
+const firstObj= { a: 1, b:2, c:3}
+const secondObj= { a: 2, d:3, c:4}
+
+
+const copiedfirstObj = { ...firstObj}
+
+console.log(copiedfirstObj)
+
+copiedfirstObj.a = 44 //? nested olmadigi icin deep copy gibi davranir
+
+console.log(copiedfirstObj, firstObj)
+
+
+const combinedObjs = {...firstObj , ...secondObj}
+
+console.log(combinedObjs)
