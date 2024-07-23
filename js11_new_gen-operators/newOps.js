@@ -160,3 +160,14 @@
         const [ahmo , , ismo, saffo] = names
 
         console.log(ahmo, ismo, saffo)
+
+
+        //? Rest operatoru (...) - degerleri dizi icersinde kullanilir ...  geri kalaanlarini ayri dizi icersinde konumlandirir. restin en son element olmasi gerekerir. 
+
+        const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"]
+
+        const [araba1,araba2, ...gerikalanlar] = araclar
+
+        console.log(araba1)
+        console.log(gerikalanlar)
+
