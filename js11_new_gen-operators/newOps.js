@@ -119,112 +119,131 @@
 
 
   //? Functionun dondudurdugu obje dogrudan kullanilabilir.
-    const getProduct = () => {
+//     const getProduct = () => {
 
-     return {
-     id: "123",
-     pName:  "NIKE",
-     price: 300,
-     stock: 1000,
-     }
-    }
-    console.log(getProduct())
-    let {pName, price, stock } = getProduct()
-    console.log("PRoduct Name:", pName, "Price:", price)
-    stock = stock  - 100
-    console.log("Remanining Stock : " , stock)
+//      return {
+//      id: "123",
+//      pName:  "NIKE",
+//      price: 300,
+//      stock: 1000,
+//      }
+//     }
+//     console.log(getProduct())
+//     let {pName, price, stock } = getProduct()
+//     console.log("PRoduct Name:", pName, "Price:", price)
+//     stock = stock  - 100
+//     console.log("Remanining Stock : " , stock)
 
 
-   //? Parametre ile kullanimi 
+//    //? Parametre ile kullanimi 
 
-    const data ={ id: "123",
-        pName:  "NIKE",
-        price: 300,}
+//     const data ={ id: "123",
+//         pName:  "NIKE",
+//         price: 300,}
 
-        const print = function({pName, price})  {  //? Yolda havada deestructuring 
-            console.log(pName,price)
-        }  
-        print(data)
+//         const print = function({pName, price})  {  //? Yolda havada deestructuring 
+//             console.log(pName,price)
+//         }  
+        // print(data)
 
 
         //? Destructuring in Array
 
 
-        const names = ["Ahmet", "Mehmet", "Ismet" , "Saffet"]
+//         const names = ["Ahmet", "Mehmet", "Ismet" , "Saffet"]
 
-        //? Klasik yontem
+//         //? Klasik yontem
 
-        const ismet = names[2]  //* siraya bagimli reactda useState hooku icin kullanimi var - ismin onemi yok siranin onemi var, bosluk birakarar istedigimiz indexe gideriz
-        console.log(ismet)
+//         const ismet = names[2]  //* siraya bagimli reactda useState hooku icin kullanimi var - ismin onemi yok siranin onemi var, bosluk birakarar istedigimiz indexe gideriz
+//         console.log(ismet)
 
-        const [ahmo , , ismo, saffo] = names
+//         const [ahmo , , ismo, saffo] = names
 
-        console.log(ahmo, ismo, saffo)
+//         console.log(ahmo, ismo, saffo)
 
-   //? Array destructuringde sira ve sayi onemli 
-   //? Rest array kullanimi 
-
-
-        //? Rest operatoru (...) - degerleri dizi icersinde kullanilir ...  geri kalaanlarini ayri dizi icersinde konumlandirir. restin en son element olmasi gerekerir. 
-
-        const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"]
-
-        const [araba1,araba2, ...gerikalanlar] = araclar
-
-        console.log(araba1)
-        console.log(gerikalanlar)
-
-  // ? Rest obje 
+//    //? Array destructuringde sira ve sayi onemli 
+//    //? Rest array kullanimi 
 
 
-  const kisi = {
-    ad: "Canan",
-    soyad: "Cano",
-    yas: 33,
-    meslek:"tester"
-  }
+//         //? Rest operatoru (...) - degerleri dizi icersinde kullanilir ...  geri kalaanlarini ayri dizi icersinde konumlandirir. restin en son element olmasi gerekerir. 
 
- const {meslek, yas, ...isim} = kisi
+//         const araclar = ["bmw", "merso", "ferrari", "rover", "lambo"]
 
- console.log(meslek, yas)
- console.log(isim)
+//         const [araba1,araba2, ...gerikalanlar] = araclar
 
- //? Rest in function 
+//         console.log(araba1)
+//         console.log(gerikalanlar)
+
+//   // ? Rest obje 
 
 
- const topla = (a, b) =>  a + b 
+//   const kisi = {
+//     ad: "Canan",
+//     soyad: "Cano",
+//     yas: 33,
+//     meslek:"tester"
+//   }
 
- console.log("SONUC:", topla(2,5,10,4))
+//  const {meslek, yas, ...isim} = kisi
 
- const toplaminiAl = (...sayilar) => {  //? none iterable olan sayilari iterable yani diziye rest (... operatoru ile )cevirdi 
-  console.log(sayilar)
-  return sayilar.reduce((t, v ) => t +v,0 )
- }
+//  console.log(meslek, yas)
+//  console.log(isim)
 
- console.log("SONUC:", toplaminiAl(2,5,10,4))
-
- //? Spread (...)  iterabledan none iterable cevirir. 
+//  //? Rest in function 
 
 
- const ucanAraclar  = ["drone", "heli", "ucak"]
- const karaAraclar  = ["Tir", "Araba", "Kamyonet", "Bisiklet"]
+//  const topla = (a, b) =>  a + b 
+
+//  console.log("SONUC:", topla(2,5,10,4))
+
+//  const toplaminiAl = (...sayilar) => {  //? none iterable olan sayilari iterable yani diziye rest (... operatoru ile )cevirdi 
+//   console.log(sayilar)
+//   return sayilar.reduce((t, v ) => t +v,0 )
+//  }
+
+//  console.log("SONUC:", toplaminiAl(2,5,10,4))
+
+//  //? Spread (...)  iterabledan none iterable cevirir. 
+
+
+//  const ucanAraclar  = ["drone", "heli", "ucak"]
+//  const karaAraclar  = ["Tir", "Araba", "Kamyonet", "Bisiklet"]
  
- const tasitlar = [ucanAraclar,karaAraclar]  //? bu sekilde nested oluyor 
+//  const tasitlar = [ucanAraclar,karaAraclar]  //? bu sekilde nested oluyor 
 
- console.log(tasitlar)  
+//  console.log(tasitlar)  
 
 
- //? spread methods ile
+//  //? spread methods ile
 
-  const tasitlar1 = [...ucanAraclar, ...karaAraclar]
+//   const tasitlar1 = [...ucanAraclar, ...karaAraclar]
 
-  console.log(tasitlar1)
+//   console.log(tasitlar1)
 
  
 
-  const cumle = "Olmak yada olmamak"
+//   const cumle = "Olmak yada olmamak"
 
-    const karakter = [...cumle]
+//     const karakter = [...cumle]
 
-    console.log(karakter)
-    console.log(cumle)
+//     console.log(karakter)
+//     console.log(cumle)
+
+    //? Array copy
+
+    const myNumbers= [4, 5, 6]
+
+    const herNumbers = [1,2,3, ...myNumbers]
+
+    const hisNumbers= [...herNumbers]
+
+
+console.log(herNumbers ,myNumbers)
+console.log(hisNumbers)
+
+
+hisNumbers.push(7)
+
+console.log("MY:",myNumbers)
+console.log("HER:",herNumbers)
+console.log("HIS:",hisNumbers)
