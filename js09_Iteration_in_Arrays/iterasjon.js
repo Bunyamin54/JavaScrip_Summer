@@ -22,7 +22,9 @@
 
 
 
-//* ornek foreach
+//* ornek foreach 
+
+//* ForEach returnsuz veri tipi olmayan bir fonksiyondur void dir
 
 // const prices = [ 250, 150, 300, 500]
 
