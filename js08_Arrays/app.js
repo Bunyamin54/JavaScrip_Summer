@@ -259,3 +259,7 @@
 // console.log(genc.join('')) // Ayse
 // console.log(genc.join('*')) // A*y*s*e
 // console.log(genc.join('-')) // A-y-s-e
+
+//* sort methods  orginal array can change
+
+const arr = ['red', 'blue', 'orange', 'black'] 
