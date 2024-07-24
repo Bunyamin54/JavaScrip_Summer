@@ -50,35 +50,49 @@ console.log("*** Conditions ***")
 //? ornek 
 
 
-const n1 = +prompt("Num1:")
-const n2 = +prompt("Num2:")
-const n3 = +prompt("Num3:")
+// const n1 = +prompt("Num1:")
+// const n2 = +prompt("Num2:")
+// const n3 = +prompt("Num3:")
 
-if ( n1 > n2){
-    if(n1 > n3) {
-        console.log("Biggest:", n1)
-    }
-}
+// if ( n1 > n2){
+//     if(n1 > n3) {
+//         console.log("Biggest:", n1)
+//     }
+// }
 
 
-if (n1 >=  n2 && n1 >= n3) {
-    console.log("Biggest:", n1)
-}else if(n2 > n1 && n2> n3) {
-    console.log("Biggest:", n2)
-}else if (n3 > n1 && n3 > n2){
-    console.log("Biggest:" , n3)
-}
+// if (n1 >=  n2 && n1 >= n3) {
+//     console.log("Biggest:", n1)
+// }else if(n2 > n1 && n2> n3) {
+//     console.log("Biggest:", n2)
+// }else if (n3 > n1 && n3 > n2){
+//     console.log("Biggest:" , n3)
+// }
 
-//? Andre methods
+// //? Andre methods
 
-let biggest = n1
+// let biggest = n1
 
-if (n2 >= biggest) {
-    biggest = n=2
-}
+// if (n2 >= biggest) {
+//     biggest = n=2
+// }
 
-if (n3 >=biggest){
-    biggest=n3
-}
+// if (n3 >=biggest){
+//     biggest=n3
+// }
 
-console.log(`${biggest} is biggest` )
+// console.log(`${biggest} is biggest` )
+
+//? Ternary methods
+
+
+const grade = prompt ("Plase enter your grade:")
+
+grade >= 50? console.log("Succeed") : console.log("Failed")
+
+//! kosul ----- durum 1 if --- durum 2
+
+
+const score = grade >= 50? "Passed" : "Failed"
+
+console.log(score)
