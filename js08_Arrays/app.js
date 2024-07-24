@@ -44,18 +44,23 @@
 //     str = 'brown'
 
 
- const colors = [ 'Red', 'Green', 'Blue']
+//  const colors = [ 'Red', 'Green', 'Blue']
 
-colors [1] = 'yellow'
+// colors [1] = 'yellow'
 
-console.log(colors)
+// console.log(colors)
 
-colors [3] = 'White'
+// colors [3] = 'White'
 
-console.log(colors)
+// console.log(colors)
 
- let c = 'pink'
+//  let c = 'pink'
 
- colors[4] = c
+//  colors[4] = c
 
- console.log(colors)
+//  console.log(colors)
+
+
+//  const colors = [ 'Red', 'Green', 'Blue' ]
+//  colors [6] = 2
+//  console.log(colors.length)
