@@ -30,3 +30,9 @@ console.log(str[6])
 // }
 
 //* Strings immutable manupule edilemez
+
+ //? Escape sequences
+
+ let str1 = 'I\'m a string'
+
+ alert(' 1- ders \n 2- kayit \n3- pre-class ')  alt alta dizer
