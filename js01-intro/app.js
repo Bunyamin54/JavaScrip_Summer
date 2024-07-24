@@ -52,3 +52,6 @@ console.log(adet)
   //! app.js:52 Uncaught ReferenceError: localDegisken is not defined at app.js:52:15
 
   console.log(localDegisken)
+
+
+  
