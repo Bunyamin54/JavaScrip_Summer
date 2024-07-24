@@ -237,9 +237,25 @@
 //* Reverse methods  en sondaki arrayi en basa getirir siralar
 
 
-const arr = ['red', 'blue', 'orange', 'black'] 
-arr.reverse() //* sondan baslar siralama yapar  orjinal arrayi degistirir
+// const arr = ['red', 'blue', 'orange', 'black'] 
+// arr.reverse() //* sondan baslar siralama yapar  orjinal arrayi degistirir
 
-console.log(arr)
+// console.log(arr)
 
 
+//* join methods orjinal arrayi bozmadan stringe cevirir
+
+// const arr= ['C', 'l','a', 'r','u','s','w', 'a','y']
+
+// console.log(arr.join()) // C,l,a,r,u,s,w,a,y¨
+
+// console.log(arr.join('')) // Clarusway
+
+// console.log(arr.join("-"))
+
+// const genc = ['A','y','s','e']
+
+// console.log(genc.join()) // A,y,s,e
+// console.log(genc.join('')) // Ayse
+// console.log(genc.join('*')) // A*y*s*e
+// console.log(genc.join('-')) // A-y-s-e
