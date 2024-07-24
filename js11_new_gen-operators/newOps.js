@@ -39,33 +39,33 @@
 //   console.log(model)
 
 
-  //* EXAMPLE: NESTED
-const cars = {
-    car1: {
-      name: "BMW",
-      model: 1990,
-      engine: 1.6,
-    },
-    car2: {
-      name: "Mercedes",
-      model: 2022,
-      engine: 2.0,
-    },
-    car3: ["anadol", "togg", "devrim"],
-    car4: "kağnı",
-  }
+//   //* EXAMPLE: NESTED
+// const cars = {
+//     car1: {
+//       name: "BMW",
+//       model: 1990,
+//       engine: 1.6,
+//     },
+//     car2: {
+//       name: "Mercedes",
+//       model: 2022,
+//       engine: 2.0,
+//     },
+//     car3: ["anadol", "togg", "devrim"],
+//     car4: "kağnı",
+//   }
 
 
-  let {car1, car2, car3, car4} = cars
+//   let {car1, car2, car3, car4} = cars
 
-  console.log(car2, car4)
-
-
-  const{name:c1Name, model:c1model} = car1  //? 2. seviye destructuring
-  const{name: c2name, model:c2model} = car2
+//   console.log(car2, car4)
 
 
-  console.log(c2name, c2model)
+//   const{name:c1Name, model:c1model} = car1  //? 2. seviye destructuring
+//   const{name: c2name, model:c2model} = car2
+
+
+//   console.log(c2name, c2model)
 
 
   //* Example
@@ -87,4 +87,30 @@ const team = [
       surname: "Nut",
       job: "team lead",
       age: 40,
-    },
+    } ]
+
+
+     //? Klasik methods
+
+    team.forEach(( t) => {
+
+
+        console.log("Name: ", t.name)
+        console.log("Surname: ", t.surname)
+        console.log("job: ", t["job"])
+        console.log("Name: ", t["age"])
+        console.log("************")
+    })
+
+    //? Destructurings methods
+
+
+    team.forEach((person) => {
+      const { name, surname,job, age}  = person 
+      console.log("Name: ", name)
+      console.log("Surname: ", surname)
+      console.log("job: ", job)
+      console.log("Name: ",age)
+      console.log("************")
+
+    })
