@@ -202,14 +202,31 @@
 
 //* element ekleme
 
-const arr = ['red', 'blue', 'orange', 'black'] 
+// const arr = ['red', 'blue', 'orange', 'black'] 
 
-console.log(arr.splice(2,0 ,'White', 'Pink'))  //* 2. elemente git ve bu renkleri ekle
+// console.log(arr.splice(2,0 ,'White', 'Pink'))  //* 2. elemente git ve bu renkleri ekle
 
-console.log(arr)
+// console.log(arr)
 
-//* element degistirme
+// //* element degistirme
 
-console.log(arr.splice(3,1, 'Pink')) //* white git 1 eleman sil yerine 'Pink' ekler
+// console.log(arr.splice(3,1, 'Pink')) //* white git 1 eleman sil yerine 'Pink' ekler
 
-console.log(arr)
+// console.log(arr)
+
+
+//* concat()  methods 
+
+const color1 = ['red', 'green']
+const color2 = ['blue', 'orange']
+const color3 = ['10', 'true']
+
+// const birlestir = color1.concat(color2, color3)
+
+// console.log(birlestir)
+
+const destr= color1.push(...color2, ...color3)  //* destructuin methods 
+
+console.log(destr)
+
+console.log(color1)
