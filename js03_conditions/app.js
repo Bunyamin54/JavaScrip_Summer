@@ -80,3 +80,5 @@ if (n2 >= biggest) {
 if (n3 >=biggest){
     biggest=n3
 }
+
+console.log(`${biggest} is biggest` )
