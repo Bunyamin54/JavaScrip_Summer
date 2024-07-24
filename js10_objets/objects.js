@@ -12,7 +12,7 @@
      model:2020,
      speed:5,
      color: ["pink", "black", "blue", "green"],
-     engine: 2
+     engine: 2000
   }
 
 
@@ -45,7 +45,7 @@
 
 
 
-   //* 2. yontem  Square Bracket yontemi ile erisim   objenin icindeki degiskenlereulasiyoruz  bu yotem ile
+   //* 2. yontem  Square Bracket yontemi ile erisim   objenin icindeki degiskenlereulasiyoruz  bu yotem ile  -- degisken yazmamiza izin veriyor, dinamik olarak obje erisimlerinde kullanilabilir. 
 
 
     console.log("ENGINE:" , car["engine"])
