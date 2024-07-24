@@ -64,3 +64,5 @@
 //  const colors = [ 'Red', 'Green', 'Blue' ]
 //  colors [6] = 2
 //  console.log(colors.length)
+
+//* Const heap area - other property primitive stack area beholdes
