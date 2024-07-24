@@ -216,7 +216,6 @@
 
  //? spread methods ile
 
+  const tasitlar1 = [...ucanAraclar, ...karaAraclar]
 
- const tasitlar1 = [ ...ucanAraclar, ...karaAraclar] //? spread ile kutulari acmis olduk 
-
- console.log(tasitlar1)
+  console.log(tasitlar1)
