@@ -38,3 +38,17 @@ console.log(language)
 let adet
 
 console.log(adet)
+
+
+//? local degisken blogin icnde gecerlidir
+
+{
+
+    let localDegisken  = 5
+    localDegisken = localDegisken +1
+    console.log(localDegisken)
+}
+
+  //! app.js:52 Uncaught ReferenceError: localDegisken is not defined at app.js:52:15
+
+  console.log(localDegisken)
