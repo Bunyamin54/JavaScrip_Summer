@@ -56,3 +56,9 @@
     console.log(h1.textContent)
     console.log(h1.innerText)
     console.log(h1.innerHTML)
+
+    //* GetElementsByTagName  ()
+
+    const myInput =  document.getElementsByTagName("input")  //* html collection  -- etiketleri donduruyor-  arrayler grubu donduruyor- dizimsi bir grup 
+
+    console.log(myInput)
