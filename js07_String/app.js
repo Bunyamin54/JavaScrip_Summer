@@ -113,3 +113,10 @@ let str1 = ' You do not know what do not know until you know'
 
 console.log(str1.search("know")) // 12
 console.log(str1.search(/know/)) // 12 with regular expression
+
+
+let str2 ='hello World'
+
+const arama= /[A-Z]/
+
+console.log(str2.search(arama))  //* 6 siradaki ilk buyuk harfi getirdi
