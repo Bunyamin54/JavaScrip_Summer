@@ -115,3 +115,11 @@
       const  h2= document.querySelector("h2")
 
       console.log(h2)
+
+      //? CSS selector mantigi kullanilabilir
+
+      const otherH2= document.querySelector("section h2")
+      const otherH3= document.querySelector("section.add-item #btn")
+
+      console.log(otherH2)
+      console.log(otherH3)
