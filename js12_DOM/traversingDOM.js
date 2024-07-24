@@ -27,3 +27,6 @@ console.log(addItem.parentNode.parentNode) //? body
   console.log(list.textContent)
 
   console.log(list.closest("section"))  //* en yakin ilk gordugu ata sectionu alir
+
+
+  console.log(list.closest("body").querySelector("header h1").innerText)
