@@ -1,5 +1,4 @@
-console.log("*** Strings *** ")
-
+console.log ('*** Strings *** ');
 
 // let str1 = " This is a string"
 
@@ -11,9 +10,7 @@ console.log("*** Strings *** ")
 
 // const str = " Hello World"
 
-
 // console.log(str[6])
-
 
 // for ( let i= 0 ; i < str.length; i++) {
 
@@ -25,13 +22,12 @@ console.log("*** Strings *** ")
 
 // for ( let i = str.length -1 ; i>=0; i--) {
 
-
 //     console.log(str[i])
 // }
 
 //* Strings immutable manupule edilemez
 
- //? Escape sequences
+//? Escape sequences
 
 //  let str1 = 'I\'m a string'
 
@@ -48,18 +44,16 @@ console.log("*** Strings *** ")
 // console.log(str5.length)
 // console.log(str5.slice(-5, -3))
 
-
 //* Substring  siralamayi takip eder.
 
-// const str2= "Orange"   
+// const str2= "Orange"
 
 // console.log(str2.substring(4, 0))
 // console.log(str2.substring(0, 4))
-// console.log(str2.substring(str2.length -4)) //* son 4 karakteri getirir. 
+// console.log(str2.substring(str2.length -4)) //* son 4 karakteri getirir.
 // console.log(str2.substring(-4)) //* calismaz
 
 // console.log(str2)
-
 
 //* concat() methods
 
@@ -88,8 +82,7 @@ console.log("*** Strings *** ")
 
 // let str4 = "Clarusway"
 
-// console.log(str4.indexOf('a',3)) //*  3 arama baslangic numarasi 
-
+// console.log(str4.indexOf('a',3)) //*  3 arama baslangic numarasi
 
 //* eksempel
 
@@ -99,40 +92,42 @@ console.log("*** Strings *** ")
 
 // //* You don't know what you don't know until you know.
 
-//* lastIndexOf  sondan baslayarak arama yapar
+// //* lastIndexOf  sondan baslayarak arama yapar
 
-let str = "Hello John , Welcome to Clarusway" 
+// let str = "Hello John , Welcome to Clarusway"
 
-console.log(str.lastIndexOf("o")) //* 22 
-
+// console.log(str.lastIndexOf("o")) //* 22
 
 // * search methods  - regular expression
 
+// let str1 = ' You do not know what do not know until you know'
 
-let str1 = ' You do not know what do not know until you know'
+// console.log(str1.search("know")) // 12
+// console.log(str1.search(/know/)) // 12 with regular expression
 
-console.log(str1.search("know")) // 12
-console.log(str1.search(/know/)) // 12 with regular expression
+// let str2 ='hello World'
 
+// const arama= /[A-Z]/
 
-let str2 ='hello World'
+// console.log(str2.search(arama))  //* 6 siradaki ilk buyuk harfi getirdi
 
-const arama= /[A-Z]/
+// //* Replace()   methods - degistirme methods
 
-console.log(str2.search(arama))  //* 6 siradaki ilk buyuk harfi getirdi
+// let str3= 'Mr Brown has a brown house and a brown car'
 
-//* Replace()   methods - degistirme methods
+// let newstr3 = str3.replace("brown", "red") //* brown u bul ve red ile degistir
 
-let str3= 'Mr Brown has a brown house and a brown car'
+// let newstr4= str3.replace(/brown/i, "red") // * case sensetive ignore eder.
+// let newstr5= str3.replace(/brown/ig, "red") // *  ne kadar varsa degistirir.  tum brownlari red yaptik
 
-let newstr3 = str3.replace("brown", "red") //* brown u bul ve red ile degistir
+//* i casesensetive g tumu degistirir replace de
 
-let newstr4= str3.replace(/brown/i, "red") // * case sensetive ignore eder. 
-let newstr5= str3.replace(/brown/ig, "red") // *  ne kadar varsa degistirir.  tum brownlari red yaptik
+// console.log(newstr3)
+// console.log(newstr4)
+// console.log(newstr5)
 
- //* i casesensetive g tumu degistirir replace de
+//* Replace all
 
-console.log(newstr3)
-console.log(newstr4)
-console.log(newstr5)
+let str = 'Mr Brown has a brown house and a brown car';
 
+console.log (str.replaceAll ('Brown', 'red')); //* sorguya uyan tum sonuclari degistirri.
