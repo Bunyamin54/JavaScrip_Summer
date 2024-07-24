@@ -19,3 +19,11 @@ console.log(addItem)
 
 console.log(addItem.parentElement) //? main
 console.log(addItem.parentNode.parentNode) //? body
+
+//! closest() ustu veriyor belirtilen elementlerin parentini secer
+
+  const list= document.querySelector(".list")
+
+  console.log(list.textContent)
+
+  console.log(list.closest("section"))  //* en yakin ilk gordugu ata sectionu alir
