@@ -51,11 +51,28 @@ console.log("*** Strings *** ")
 
 //* Substring  siralamayi takip eder.
 
-const str2= "Orange"   
+// const str2= "Orange"   
 
-console.log(str2.substring(4, 0))
-console.log(str2.substring(0, 4))
-console.log(str2.substring(str2.length -4)) //* son 4 karakteri getirir. 
-console.log(str2.substring(-4)) //* calismaz
+// console.log(str2.substring(4, 0))
+// console.log(str2.substring(0, 4))
+// console.log(str2.substring(str2.length -4)) //* son 4 karakteri getirir. 
+// console.log(str2.substring(-4)) //* calismaz
 
-console.log(str2)
+// console.log(str2)
+
+
+//* concat() methods
+
+// let str1 = "Clarusway"
+// let str2 = "Full"
+// let str3 = "Stack"
+
+// const result = str1.concat(" ", str2, " ", str3)
+
+// console.log(result)
+
+//* includes()
+
+let str = "Hello John , welcome to Clarusway."
+
+console.log(str.includes("welcome")) //* true
