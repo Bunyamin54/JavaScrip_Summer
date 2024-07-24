@@ -65,4 +65,16 @@
 //  colors [6] = 2
 //  console.log(colors.length)
 
-//* Const heap area - other property primitive stack area beholdes
+//* Const heap area - other property primitive stack area beholdes  primitives 
+
+// let a = 5
+
+// let b = a
+
+
+// console.log(a)
+// console.log(b)
+
+// a = 6
+
+// console.log(a)
