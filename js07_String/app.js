@@ -15,8 +15,16 @@ const str = " Hello World"
 console.log(str[6])
 
 
-for ( let i= 0 ; i < str.length; i++) {
+// for ( let i= 0 ; i < str.length; i++) {
 
-     console.log(str[i])
+//      console.log(str[i])
 
+// }
+
+//* tersten itereasyon
+
+for ( let i = str.length -1 ; i>=0; i--) {
+
+
+    console.log(str[i])
 }
