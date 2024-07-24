@@ -1,8 +1,8 @@
  //**  Reduce methods */
 
- x.forEach (( value, item, array) => {
-    arr [] = value * 2
- })
+//  x.forEach (( value, item, array) => {
+//     arr [] = value * 2
+//  })
 
  //* for each  return ozelligi yok , 
  //* bir dizi icersinde doneriz  value zorunlu item ve array optional  bize array dondurur. forEach bitirme islemi yapar. 
@@ -24,4 +24,6 @@
 
 //* Reduce (Terminal)
 //* Reduce -> Accumulative islemler yapar birikimli ardisik islem yapar
-//* 
+//*  reduce de iki zorunluluk var 
+
+Array.reduce((acc.value, i,arr) => )
