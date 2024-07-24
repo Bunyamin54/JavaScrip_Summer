@@ -154,7 +154,7 @@ console.log ('*** Strings *** ');
 // console.log(str1.toUpperCase())
 
 
-//*Trim methods  bosluk alma
+//*Trim methods  bosluk alma  promt alirken kullanilabilir. bosluklari temizler
 
 let str= "   Welcome to Full Stack   "
 // console.log(str)
