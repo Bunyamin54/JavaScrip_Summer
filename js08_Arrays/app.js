@@ -182,9 +182,20 @@
 
 //* shift
 
-const arr = ['red', 'blue', 'orange', 'black'] 
+// const arr = ['red', 'blue', 'orange', 'black'] 
 
-console.log(arr.shift())  //* ilk elemani siler ve sildigi elemani dondurur. 
+// console.log(arr.shift())  //* ilk elemani siler ve sildigi elemani dondurur. 
 
 
 // ?  unshift + ekler  push ekler  // shift bastakini cikartir pop sondakini cikartir  cikartanlar silinen elemani dondurudur ekleyenler ise yeni arrayin uzunlugunu dondudur
+
+
+//* splice  methods   2 parametre verioyruz 1. nereye gidecek 2. si kac tane silecek
+
+
+const arr = ['red', 'blue', 'orange', 'black'] 
+
+
+console.log(arr.splice(2,1))
+
+console.log(arr)
