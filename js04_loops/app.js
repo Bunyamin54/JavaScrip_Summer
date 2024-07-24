@@ -2,7 +2,7 @@
 
  console.log("***** Lopps*****")
 
- //* For loops
+ //* For loops  adetli durumlarda
 
 // for (let i = 1; i <=99; i++) {
 
@@ -44,11 +44,13 @@
 //     console.log(`${sayac}. sayiniz ${rasgeleSayi}`)
 // }
 
-//* While Loops
+//* While Loops  - karmasik kompleks durumlarda 
 
 
-  let i = 1
- while (i < 10) {
+    let i = 1
+    while (i < 10) {
     console.log(i)
     i++
  }
+
+ console.log("BYE")
