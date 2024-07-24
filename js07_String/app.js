@@ -162,3 +162,8 @@ console.log ('*** Strings *** ');
 // console.log(str.trimStart())
 // console.log(str.trimEnd())
 
+//* StartsWith & endWith  boolean true or false
+
+let str = 'clarusway@Calarusway.com is our e-mail address'
+
+console.log(str.startsWith('clarusway'))
