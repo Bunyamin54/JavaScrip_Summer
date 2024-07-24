@@ -22,3 +22,10 @@ func1()
 
 console.log(number1) //? local degisken 
 console.log(number2) //? global number2 gorururuz
+
+{
+
+    let = x   //* local block alan o yuzden hata verir ulasamyiz x e 
+}
+
+console.log(x)
