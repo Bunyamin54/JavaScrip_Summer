@@ -107,3 +107,8 @@ console.log(str.lastIndexOf("o")) //* 22
 
 
 // * search methods  - regular expression
+
+
+let str1 = ' You do not know what do not know until you know'
+
+console.log(str1.search("know")) // 12
