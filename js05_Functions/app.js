@@ -35,3 +35,6 @@ function yazdirParametre (message, name) {
 yazdirParametre("Hi", "FS-15" )
 yazdirParametre("Selam", "FS-16" )
 yazdirParametre("Chao", "FS-17" )
+
+
+//* fonksiyonun cok fazla parametre olmasi okunurlugu azaltir
