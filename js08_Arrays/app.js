@@ -155,3 +155,10 @@
 
 
 // console.log(car)
+
+//* pop () en sondaki elemani siler
+
+const arr = ['red', 'blue', 'orange', 'black']   //* Black siler ve consola yazdirir. 
+
+
+console.log(arr.pop())
