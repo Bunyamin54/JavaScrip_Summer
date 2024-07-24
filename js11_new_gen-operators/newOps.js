@@ -202,3 +202,21 @@
  }
 
  console.log("SONUC:", toplaminiAl(2,5,10,4))
+
+ //? Spread (...)  iterabledan none iterable cevirir. 
+
+
+ const ucanAraclar  = ["drone", "heli", "ucak"]
+ const karaAraclar  = ["Tir", "Araba", "Kamyonet", "Bisiklet"]
+ 
+ const tasitlar = [ucanAraclar,karaAraclar]  //? bu sekilde nested oluyor 
+
+ console.log(tasitlar)  
+
+
+ //? spread methods ile
+
+
+ const tasitlar1 = [ ...ucanAraclar, ...karaAraclar] //? spread ile kutulari acmis olduk 
+
+ console.log(tasitlar1)
