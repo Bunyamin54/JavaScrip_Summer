@@ -122,3 +122,9 @@ const arama= /[A-Z]/
 console.log(str2.search(arama))  //* 6 siradaki ilk buyuk harfi getirdi
 
 //* Replace()   methods - degistirme methods
+
+let str3= 'Mr Brown has a brown house and a brown car'
+
+let newstr3 = str3.replace("brown", "red") //* brown u bul ve red ile degistir
+
+console.log(newstr3)
