@@ -11,3 +11,5 @@
  const dizi = new Array (100, 'CW', true)
 
  console.log(dizi)
+
+ //* son elemana length -1 kullanilarak buluruz
