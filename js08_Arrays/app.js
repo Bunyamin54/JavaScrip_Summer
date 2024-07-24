@@ -101,22 +101,31 @@
 //* slice methods  bu method soldan saga dogru calisirir
 
 
-const colors = ['Red', 'Green', 'Blue', 'Yellow', 'Brown' ]
+// const colors = ['Red', 'Green', 'Blue', 'Yellow', 'Brown' ]
 
-const cls = colors.slice()
+// const cls = colors.slice()
 
-console.log(colors)
-console.log(cls)
+// console.log(colors)
+// console.log(cls)
 
-colors[0] = 'Black'
+// colors[0] = 'Black'
 
-console.log(colors)
-console.log(cls)
+// console.log(colors)
+// console.log(cls)
 
 
-console.log(colors.slice(2,4)) //* Blue and yellow
+// console.log(colors.slice(2,4)) //* Blue and yellow
 
-console.log(colors.slice(-2)) //* Yellow and brown
+// console.log(colors.slice(-2)) //* Yellow and brown
 
-console.log(colors.slice(2)) //* ['Blue', 'Yellow', 'Brown']
-console.log(colors.slice(8)) //* []  bos array  limit disi olmayan array  hatali indexleme
+// console.log(colors.slice(2)) //* ['Blue', 'Yellow', 'Brown']
+// console.log(colors.slice(8)) //* []  bos array  limit disi olmayan array  hatali indexleme
+
+
+//* push () methods   adds new elemenet to the end of an array
+
+const arr = [ 'red', 'blue']
+
+arr.push('orange')
+
+    console.log(arr)
