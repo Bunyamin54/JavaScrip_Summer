@@ -73,7 +73,7 @@ console.log("*** Strings *** ")
 
 //* includes()
 
-let str = "Hello John , welcome to Clarusway."
+// let str = "Hello John , welcome to Clarusway."
 
 // console.log(str.includes("welcome")) //* true
 // console.log(str.includes("Welcome")) //* false
@@ -93,8 +93,14 @@ let str = "Hello John , welcome to Clarusway."
 
 //* eksempel
 
-let mail = prompt ('Email adresini giriniz:')
+// let mail = prompt ('Email adresini giriniz:')
 
-console.log(mail.includes("@"))
+// console.log(mail.includes("@"))
 
-//* You don't know what you don't know until you know.
+// //* You don't know what you don't know until you know.
+
+//* lastIndexOf  sondan baslayarak arama yapar
+
+let str = "Hello John , Welcome to Clarusway" 
+
+console.log(str.lastIndexOf("o")) //* 22 
