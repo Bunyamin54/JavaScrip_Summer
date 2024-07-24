@@ -119,20 +119,14 @@
     const getProduct = () => {
 
      return {
-            id: "123",
-            pName:  "NIKE",
-            price: 300,
-            stock: 1000,
-
+     id: "123",
+     pName:  "NIKE",
+     price: 300,
+     stock: 1000,
      }
     }
-
     console.log(getProduct())
-
     let {pName, price, stock } = getProduct()
-
     console.log("PRoduct Name:", pName, "Price:", price)
-
     stock = stock  - 100
-
     console.log("Remanining Stock : " , stock)
