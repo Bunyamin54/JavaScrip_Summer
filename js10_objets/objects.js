@@ -120,4 +120,5 @@
 
 
 
-    //* Json  => Javascript object notation
+    //* Json  => Javascript object notation  Dizi icersindeki obje YAPILARINA JSON DERIZ  [{}, {}, {}]  DIZI ICERSINDE   { name:
+    //* surname: age : salary :}  normal obje
