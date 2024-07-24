@@ -127,4 +127,10 @@ let str3= 'Mr Brown has a brown house and a brown car'
 
 let newstr3 = str3.replace("brown", "red") //* brown u bul ve red ile degistir
 
+let newstr4= str3.replace(/brown/i, "red") // * case sensetive ignore eder. 
+let newstr5= str3.replace(/brown/ig, "red") // *  ne kadar varsa degistirir.  tum brownlari red yaptik
+
 console.log(newstr3)
+console.log(newstr4)
+console.log(newstr5)
+
