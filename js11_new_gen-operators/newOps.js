@@ -1,42 +1,42 @@
 
-  //* Destructuring ( Object)
+//   //* Destructuring ( Object)
    
-  console.log("*** New Operators ****")
+//   console.log("*** New Operators ****")
 
-  //? JSON - JavaScript Object Notation 
-  //? JSON - Bir Arraydir. 
+//   //? JSON - JavaScript Object Notation 
+//   //? JSON - Bir Arraydir. 
 
-  //? objeyi acma parcalama
+//   //? objeyi acma parcalama
 
-  const car = {
-      brand:  "BMW",
-      model:  2020,
-      engine: 2000,
-      colors : ["pink", "blue"],
+//   const car = {
+//       brand:  "BMW",
+//       model:  2020,
+//       engine: 2000,
+//       colors : ["pink", "blue"],
     
-  }
-  //?  1. yontem . notasyonu ile ulasim 
-  const araba =car.brand  //* Degiskene aktarma
-  console.log(car.brand)
-  console.log(araba)
+//   }
+//   //?  1. yontem . notasyonu ile ulasim 
+//   const araba =car.brand  //* Degiskene aktarma
+//   console.log(car.brand)
+//   console.log(araba)
 
 
-  //? 2. yontem Square  brcket  []  koseli parentez ile ulasim
+//   //? 2. yontem Square  brcket  []  koseli parentez ile ulasim
 
-    console.log(car["model"])
-
-
-    //? 3 methods. Destructure  parcalama bozma
+//     console.log(car["model"])
 
 
-  const {brand, engine,colors } = car
-
-  console.log(engine, colors, name) //* Degiskenlerin isimi key lerin ismi ile ayni olmazi lazm   //? Destructuring object
+//     //? 3 methods. Destructure  parcalama bozma
 
 
-  const {model} = car  //* destructuring methods
+//   const {brand, engine,colors } = car
 
-  console.log(model)
+//   console.log(engine, colors, name) //* Degiskenlerin isimi key lerin ismi ile ayni olmazi lazm   //? Destructuring object
+
+
+//   const {model} = car  //* destructuring methods
+
+//   console.log(model)
 
 
   //* EXAMPLE: NESTED
@@ -54,3 +54,37 @@ const cars = {
     car3: ["anadol", "togg", "devrim"],
     car4: "kağnı",
   }
+
+
+  let {car1, car2, car3, car4} = cars
+
+  console.log(car2, car4)
+
+
+  const{name:c1Name, model:c1model} = car1  //? 2. seviye destructuring
+  const{name: c2name, model:c2model} = car2
+
+
+  console.log(c2name, c2model)
+
+
+  //* Example
+const team = [
+    {
+      name: "Josh",
+      surname: "Barry",
+      job: "developer",
+      age: 30,
+    },
+    {
+      name: "Josh",
+      surname: "Barry",
+      job: "tester",
+      age: 45,
+    },
+    {
+      name: "Hazel",
+      surname: "Nut",
+      job: "team lead",
+      age: 40,
+    },
