@@ -123,3 +123,7 @@
 
       console.log(otherH2)
       console.log(otherH3)
+
+      const react = document.querySelector("section.item-list ul li:nth-child(4)") //* detayli secim 
+
+      console.log(react)
