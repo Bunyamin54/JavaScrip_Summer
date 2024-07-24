@@ -86,34 +86,38 @@
        //? Object methods
 
 
-       const personel = {
+    //    const personel = {
 
 
-         name: "Ahmet",
-         surname: "Canan",
-         dob: 1990,
-         salary: 30000,
-         drivingLicense: true,
+    //      name: "Ahmet",
+    //      surname: "Canan",
+    //      dob: 1990,
+    //      salary: 30000,
+    //      drivingLicense: true,
 
-         calculateAge: function() {
+    //      calculateAge: function() {
 
-            return new Date().getFullYear() - this.dob
+    //         return new Date().getFullYear() - this.dob
 
-         },
+    //      },
 
         //  summary: () => {
         //     return ` ${this.name} is ${this.calculateAge()} years old`
-         summary: function () => {
-            return ` ${this.name} is ${this.calculateAge()} years old`
-             //* arrow callback icin kullanmak mantikli arrow function ana scope baglidir. Lexical scope  dur bulundugu scope gostermez , ana scope window gosterir
-         }
+    //      summary: function () => {
+    //         return ` ${this.name} is ${this.calculateAge()} years old`
+    //          //* arrow callback icin kullanmak mantikli arrow function ana scope baglidir. Lexical scope  dur bulundugu scope gostermez , ana scope window gosterir
+    //      }    }
 
-          //* Objelerin icersindeki functonlari arrow ile yazmayalaim , expression function ile yazalim. 
-       }
+    //       //* Objelerin icersindeki functonlari arrow ile yazmayalaim , expression function ile yazalim. 
+   
 
-       console.log(personel.name + " " + personel.surname)
-       console.log(personel.calculateAge())
+    //    console.log(personel.name + " " + personel.surname)
+    //    console.log(personel.calculateAge())
 
-       console.log(personel.summary())
+    //    console.log(personel.summary())
 
-       //* browser icersindeki tum objeler windov interfacedindedir. 
+    //    //* browser icersindeki tum objeler windov interfacedindedir. 
+
+
+
+    //* Json  => Javascript object notation
