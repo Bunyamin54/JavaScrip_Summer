@@ -26,11 +26,12 @@
 
 //? parametrik functions
 
-function yazdirParametre (cohortName) {
+function yazdirParametre (message, name) {
 
 
-    console.log("Merhaba", cohortName)
+    console.log(message, name)
 }
 
-yazdirParametre("FS-15")
-yazdirParametre("FS-16")
+yazdirParametre("Hi", "FS-15" )
+yazdirParametre("Selam", "FS-16" )
+yazdirParametre("Chao", "FS-17" )
