@@ -30,3 +30,22 @@ console.log(addItem.parentNode.parentNode) //? body
 
 
   console.log(list.closest("body").querySelector("header h1").innerText)
+
+  //* Asaagi inme yontemi 
+//? childeren, firstElementChild, lastElementChild
+  
+
+console.log(addItem.children)  // Html Collection 
+
+
+console.log(addItem.children[2])  //? indisleme mantigi 
+console.log(addItem.firstElementChild)
+
+console.log(addItem.lastElementChild)
+
+console.log(addItem.firstChild) //* ilk yaziyi getirir
+
+console.log(document.querySelector("h1").firstChild)
+
+
+//? Sibling nest elementSibling, previousElementSibling
