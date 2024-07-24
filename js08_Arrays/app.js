@@ -185,3 +185,6 @@
 const arr = ['red', 'blue', 'orange', 'black'] 
 
 console.log(arr.shift())  //* ilk elemani siler ve sildigi elemani dondurur. 
+
+
+// ?  unshift + ekler  push ekler  // shift bastakini cikartir pop sondakini cikartir
