@@ -59,4 +59,4 @@
 
     //* some ()  bir tanesi bile true ise true dondurur. 
 
-    //* 
+    //* findIndex , find  findLast
