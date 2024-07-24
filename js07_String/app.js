@@ -135,3 +135,6 @@ console.log ('*** Strings *** ');
 
 //* Split () methods
 
+let str = ' Welcome to : Full Stack'
+
+console.log(str.split())  //* [" Welcome to : Full Stack"]
