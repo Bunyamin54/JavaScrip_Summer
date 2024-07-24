@@ -120,3 +120,5 @@ let str2 ='hello World'
 const arama= /[A-Z]/
 
 console.log(str2.search(arama))  //* 6 siradaki ilk buyuk harfi getirdi
+
+//* Replace()   methods - degistirme methods
