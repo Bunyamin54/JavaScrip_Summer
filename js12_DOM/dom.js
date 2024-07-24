@@ -97,4 +97,11 @@
      lists[2].innerHTML =`<h1> JavaScript</h1>`
      lists[3].innerText =`<h1> React </h1>`  //* metin olarak algilar
      lists[4].textContent =`<h1> Vue</h1>` //* metin olarak algilar
-     //*  innerhtml
+ 
+
+      //* Query sellectør () hem id hem tag 
+
+   //* id secildi   id seciyorsum  dies ile
+      const header = document.querySelector("#header")
+
+      console.log(header)
