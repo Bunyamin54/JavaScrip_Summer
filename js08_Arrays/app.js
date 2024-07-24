@@ -13,3 +13,20 @@
  console.log(dizi)
 
  //* son elemana length -1 kullanilarak buluruz
+
+
+//  const colors = [ 'Red', 'Green', 'Blue']
+
+//  console.log(colors[0])
+//  console.log(colors[colors.length -1]) //* son elemana ulasim
+//  console.log(colors[colors.length -2])  //* sondan ikinciye ulasim 
+
+ //* Array is Array
+
+ const colors = [ 'Red', 'Green', 'Blue']
+
+ console.log(typeof colors)
+
+
+ console.log(Array.isArray(colors)) //* true
+ console.log(colors instanceof Array) //* true
