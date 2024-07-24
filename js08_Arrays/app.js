@@ -286,6 +286,18 @@
 //* includes() methods  var mi yok mu deger dondurur boolean degeri 
 
 
-const arr = ['red', 'white',' yellow']
+// const arr = ['red', 'white',' yellow']
 
-console.log(arr.includes('white')) //* true
+// console.log(arr.includes('white')) //* true
+
+//* Nested Arrays 
+
+
+const arr=  [1, true, [3, 'red', 5], [6, 7, 8]]
+console.log(arr.length)
+
+
+console.log(arr[0]) //* 1
+console.log(arr[1]) //* true
+console.log(arr[2]) //* (3) [3, 'red', 5]
+console.log(arr[3]) //* (3) [6, 7, 8]
