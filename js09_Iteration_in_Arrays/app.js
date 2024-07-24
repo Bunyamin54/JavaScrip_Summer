@@ -69,7 +69,7 @@
 
 //* for of loops
 
-//* for (grade of grades) //*  grades icindeki herbir grades 
+//*  for (grade of grades) //*  grades icindeki herbir grades 
 
 const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
 
@@ -84,9 +84,12 @@ const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
     }
 
    }
-  return counter
+  return counter === 0 ?`${name} can not be found ` : `${name} found ${ counter} times`
  }
 
  console.log(findStudent('ahmet'))
- console.log(findStudent('ismet'))
+ console.log(findStudent('Ismet'))
  console.log(findStudent('Alihan'))
+
+
+  
