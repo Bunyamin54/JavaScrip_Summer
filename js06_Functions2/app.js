@@ -35,6 +35,9 @@ console.log("***Arrow Function ***")
 
 //* Eksempel 3  Calculator  birdern fazla durumlarda switch case durumu 
 const add= (n1, n2)  => n1+ n2
+const sub= (n1, n2)  => n1 - n2
+const mul= (n1, n2)  => n1 * n2
+const div= (n1, n2)  => n1 / n2
 
 
 const compute = (n1, n2, operator) => {
@@ -46,7 +49,14 @@ let result = 0
             
             break;
         case "-":
-            
+             result = sub( n1, n2 )
+            break;
+        case "x":
+        case "*":
+             result = mul( n1, n2 )
+            break;
+        case "/":
+             result = div( n1, n2 )
             break;
     
         default:
@@ -60,6 +70,6 @@ let result = 0
 
 const n1 = + prompt("First Number:")
 const n2 = + prompt("Second Number:")
-const operator= + prompt("Operator:")
+const operator= prompt("Operator:")
 
-console.log(compute(n1, n2, operator))
+console.log (`${n1} ${operator} ${n2} = ${compute(n1,n2, operator)}`)
