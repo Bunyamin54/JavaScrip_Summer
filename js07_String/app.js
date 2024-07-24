@@ -135,9 +135,14 @@ console.log ('*** Strings *** ');
 
 //* Split () methods  tek bir array halinde donduruyor
 
-let str = ' Welcome to : Full Stack'
+let str = 'Welcome to: Full Stack'
 
-console.log(str.split())  //* [" Welcome to : Full Stack"]  no seperator
+// console.log(str.split())  //* [" Welcome to : Full Stack"]  no seperator
 
-console.log(str.split(' '))
-console.log(str.split( ': '))
+// console.log(str.split(' '))
+// console.log(str.split( ': '))
+
+
+let arr = str.split( ' ')
+
+console.log(arr)
