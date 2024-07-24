@@ -48,17 +48,31 @@
 
 //* Calculate
 
-console.log(new Date()) //* sistem tarihi ve saatini verir 
+// console.log(new Date()) //* sistem tarihi ve saatini verir 
 
-function calculate (name, yob){
+// function calculate (name, yob){
     
     // const age = 2024 -yob
-    const age = new Date().getFullYear() - yob
-    console.log(`${name} is ${age} years old.`)
-    return age
-}
+//     const age = new Date().getFullYear() - yob
+//     console.log(`${name} is ${age} years old.`)
+//     return age
+// }
 
  
 
-calculate("Ahmet",1990)
-calculate("Bunyamin",1985)
+// calculate ("Ahmet",1990)
+// calculate ("Bunyamin",1985)
+
+
+//* ornek 2 */
+
+
+function add (num1, num2) {
+  return num1 + num2
+}
+
+
+const reult1= add(3,5)
+const reult2= add(5,9)
+
+console.log(reult1, reult2)
