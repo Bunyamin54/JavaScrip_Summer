@@ -70,11 +70,33 @@ let result = 0
 }
 
 
-const n1 = + prompt("First Number:")
-const n2 = + prompt("Second Number:")
-const operator= prompt("Operator:")
+// const n1 = + prompt("First Number:")
+// const n2 = + prompt("Second Number:")
+// const operator= prompt("Operator:")
 
-console.log (`${n1} ${operator} ${n2} = ${compute(n1,n2, operator)}`)
+// console.log (`${n1} ${operator} ${n2} = ${compute(n1,n2, operator)}`)
 
 
-//? Fibonaci oz yenileme  faktoriel  oz yinemeli fonksiyonlar
+//? Fibonaci oz yenileme  faktoriel  oz yinemeli fonksiyonlar 
+
+
+
+//* Eksempel 4 Fakto (5)   iterasyon 
+
+
+const fakto = (n) => {
+
+   let f= 1
+   for(let i=n; i>1; i--) {
+ 
+    f= f * i
+
+
+   }  return f
+
+
+}
+
+const number = +prompt ("n")
+
+console.log(`Fakto(${number})= ${fakto(number)}`)
