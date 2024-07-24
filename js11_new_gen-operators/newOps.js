@@ -184,8 +184,21 @@
     meslek:"tester"
   }
 
-    const {meslek, yas, ...isim} = kisi
+ const {meslek, yas, ...isim} = kisi
+
+ console.log(meslek, yas)
+ console.log(isim)
+
+ //? Rest in function 
 
 
-    console.log(meslek, yas)
-    console.log(isim)
+ const topla = (a, b) =>  a + b 
+
+ console.log("SONUC:", topla(2,5,10,4))
+
+ const toplaminiAl = (...sayilar) => {  //? none iterable olan sayilari iterable yani diziye rest (... operatoru ile )cevirdi 
+  console.log(sayilar)
+  return sayilar.reduce((t, v ) => t +v,0 )
+ }
+
+ console.log("SONUC:", toplaminiAl(2,5,10,4))
