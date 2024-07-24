@@ -128,9 +128,9 @@ let description
 
 // description = age>= 18 && "Adult"
 
-age >=18 && (description = "Adult")
+age >=18 && (description = "Adult")  // && true ise calistirir
 
 
-age >= 18 || (description = "Adult")
+age < 18 || (description = "Adult") // || degilse false 
 
 console.log(description)
