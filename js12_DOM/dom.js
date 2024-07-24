@@ -81,3 +81,13 @@
      console.log(myListArr1)
 
      myListArr1.map((li) => (li.style.listStyleType = "none"))
+
+     //* GetElementByClasName
+
+     const lists= document.getElementsByClassName("list")
+
+     console.log(lists)
+
+     const listsArr = [...lists]
+
+     listsArr.forEach((li) => console.log(li))
