@@ -133,7 +133,7 @@ console.log ('*** Strings *** ');
 // console.log (str.replaceAll ('Brown', 'red')); //* sorguya uyan tum sonuclari degistirri.
 
 
-//* Split () methods  tek bir array halinde donduruyor
+//* Split () methods  tek bir array halinde donduruyor  Stringi arraye cevirirz
 
 let str = 'Welcome to: Full Stack'
 
