@@ -238,7 +238,7 @@
 
 
 const arr = ['red', 'blue', 'orange', 'black'] 
-arr.reverse() //* sondan baslar siralama yapar
+arr.reverse() //* sondan baslar siralama yapar  orjinal arrayi degistirir
 
 console.log(arr)
 
