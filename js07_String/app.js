@@ -9,10 +9,10 @@ console.log("*** Strings *** ")
 
 // console.log(str2.length)
 
-const str = " Hello World"
+// const str = " Hello World"
 
 
-console.log(str[6])
+// console.log(str[6])
 
 
 // for ( let i= 0 ; i < str.length; i++) {
@@ -33,6 +33,26 @@ console.log(str[6])
 
  //? Escape sequences
 
- let str1 = 'I\'m a string'
+//  let str1 = 'I\'m a string'
 
- alert(' 1- ders \n 2- kayit \n3- pre-class ')  alt alta dizer
+//  alert(' 1- ders \n 2- kayit \n3- pre-class ')  alt alta dizer
+
+//* Strings methods
+
+//* slice()  yon soldan aga   2. karakter optionaldir.
+
+// const str5 = "Orange"
+
+// console.log(str5.slice(0,4))
+// console.log(str5.slice(-4))
+// console.log(str5.length)
+// console.log(str5.slice(-5, -3))
+
+
+//* Substring  siralamayi takip eder.
+
+const str2= "Orange"   
+
+console.log(str2.substring(4, 0))
+
+
