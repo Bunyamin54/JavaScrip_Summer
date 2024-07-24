@@ -1,0 +1,1 @@
+//* Golbal degisken bulundugu ortamin tum katerogirlerinde gecerli olan degisken herkese acik olan degiskenler  park piknik alani gibi global alan // local scope kendi evimizin bahcesi 

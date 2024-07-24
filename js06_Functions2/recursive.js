@@ -9,4 +9,5 @@
 
 //* agile ticket login.js  - estimation tid
 
-// * 6 estimation + 6 estimation 2 dyas
+// * 6 estimation + 6 estimation 2 days
+
