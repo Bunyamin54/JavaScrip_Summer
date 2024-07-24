@@ -133,8 +133,11 @@ console.log ('*** Strings *** ');
 // console.log (str.replaceAll ('Brown', 'red')); //* sorguya uyan tum sonuclari degistirri.
 
 
-//* Split () methods
+//* Split () methods  tek bir array halinde donduruyor
 
 let str = ' Welcome to : Full Stack'
 
-console.log(str.split())  //* [" Welcome to : Full Stack"]
+console.log(str.split())  //* [" Welcome to : Full Stack"]  no seperator
+
+console.log(str.split(' '))
+console.log(str.split( ': '))
