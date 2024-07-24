@@ -11,3 +11,9 @@
 //* arrow 
 
 console.log("***Arrow Function ***")
+
+
+//? ornek
+
+const calculateAge = ( year) => new Date().getFullYear() - year
+console.log(`AGe:${calculateAge(1990)}`)
