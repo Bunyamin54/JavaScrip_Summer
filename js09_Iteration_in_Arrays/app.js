@@ -15,15 +15,35 @@
 
 
 
-const grades = [55, 77, 23, 89, 100, 44, 33]
+// const grades = [55, 77, 23, 89, 100, 44, 33]
 
-let sum = 0
+// let sum = 0
 
-for (let i=0 ; i<grades.length; i++) {
+// for (let i=0 ; i<grades.length; i++) {
 
 
-     sum += grades[i]
+//      sum += grades[i]
+// }
+
+//  console.log("SUM:" ,sum) // 421
+//  console.log("AVG:" , (sum / grades.length).toFixed(2)) //* 60.14
+
+//* eksempel
+const grades = [55, 77, 23, 89, 100, 44, 33,45]
+
+const lessThan50 = []
+const equalOrBiggerThan = []
+
+for(let j =0 ; j<grades.length; j++) {
+
+  if (grades[j]  < 50) {
+    lessThan50.push(grades[j])
+  } else {
+
+    equalOrBiggerThan.push(grades[j])
+  }
+
 }
 
- console.log("SUM:" ,sum) // 421
- console.log("AVG:" , (sum / grades.length).toFixed(2)) //* 60.14
+console.log(lessThan50)
+console.log(equalOrBiggerThan)
