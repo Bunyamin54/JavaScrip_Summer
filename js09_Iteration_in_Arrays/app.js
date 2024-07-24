@@ -29,21 +29,40 @@
 //  console.log("AVG:" , (sum / grades.length).toFixed(2)) //* 60.14
 
 //* eksempel
+// const grades = [55, 77, 23, 89, 100, 44, 33,45]
+
+// const lessThan50 = []
+// const equalOrBiggerThan = []
+
+// for(let j =0 ; j<grades.length; j++) {
+
+//   if (grades[j]  < 50) {
+//     lessThan50.push(grades[j])
+//   } else {
+
+//     equalOrBiggerThan.push(grades[j])
+//   }
+
+// }
+
+// console.log(lessThan50)
+// console.log(equalOrBiggerThan)
+
+//* for in loops  length kullanamamiza gerek yok for in donugusu zaten sonuna kadar sayar  , amac iterasyonun basitlestirmek
+
+//* eksempel 
+
 const grades = [55, 77, 23, 89, 100, 44, 33,45]
 
 const lessThan50 = []
 const equalOrBiggerThan = []
 
-for(let j =0 ; j<grades.length; j++) {
+for(let i in grades) {
 
-  if (grades[j]  < 50) {
-    lessThan50.push(grades[j])
-  } else {
-
-    equalOrBiggerThan.push(grades[j])
-  }
+  grades[i] < 50 ? lessThan50.push(grades[i]) : equalOrBiggerThan.push(grades[i])
 
 }
 
 console.log(lessThan50)
 console.log(equalOrBiggerThan)
+console.log(grades)
