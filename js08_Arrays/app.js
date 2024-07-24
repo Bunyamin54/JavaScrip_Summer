@@ -95,3 +95,28 @@
 // console.log(arr1)
 
 // console.log(arr2)
+
+// ? Array methods
+
+//* slice methods
+
+
+const colors = ['Red', 'Green', 'Blue', 'Yellow', 'Brown' ]
+
+const cls = colors.slice()
+
+console.log(colors)
+console.log(cls)
+
+colors[0] = 'Black'
+
+console.log(colors)
+console.log(cls)
+
+
+console.log(colors.slice(2,4)) //* Blue and yellow
+
+console.log(colors.slice(-2)) //* Yellow and brown
+
+console.log(colors.slice(2)) //* ['Blue', 'Yellow', 'Brown']
+console.log(colors.slice(8)) //* []  bos array  limit disi olmayan array  hatali indexleme
