@@ -21,5 +21,33 @@
   myHeader.style.color = "white"
 
   //* GetElementsByIdTagName
-  
 
+
+  //* Dom elemanlarina nasil erisilir  html elemanlari secemek icin methodlar
+
+  //* Add butonu
+   const addButon = document.getElementById("btn")
+
+   console.log(addButon)
+
+
+   addButon.style.backgroundColor ="#bebe"
+   addButon.style.border = "none"
+   addButon.style.padding = "0.6rem"
+   addButon.style.borderRadius = "10px"
+
+
+    // * deger atama  butona
+
+    addButon.value= "Save"
+
+    //* h1 
+    const h1 = document.getElementById("heading1")
+
+    console.log(h1)
+
+    //* deger atama Yazi elementleri icindeki degeri okuyabilir veya deger atayabiliriz. 
+
+    h1.textContent = "DOM  Introduction"
+
+    console.log(h1.textContent)
