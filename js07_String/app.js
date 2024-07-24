@@ -54,5 +54,8 @@ console.log("*** Strings *** ")
 const str2= "Orange"   
 
 console.log(str2.substring(4, 0))
+console.log(str2.substring(0, 4))
+console.log(str2.substring(str2.length -4)) //* son 4 karakteri getirir. 
+console.log(str2.substring(-4)) //* calismaz
 
-
+console.log(str2)
