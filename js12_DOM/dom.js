@@ -20,3 +20,6 @@
   myHeader.style.backgroundColor = "red"
   myHeader.style.color = "white"
 
+  //* GetElementsByIdTagName
+  
+
