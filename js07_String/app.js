@@ -142,7 +142,14 @@ let str = 'Welcome to: Full Stack'
 // console.log(str.split(' '))
 // console.log(str.split( ': '))
 
+// let arr = str.split( ' ')
 
-let arr = str.split( ' ')
+// console.log(arr)
 
-console.log(arr)
+//* toUpperCase & tolowerCase  buyuk harf kucuk harf
+
+let str1= ' Welcome to Full Stack'
+
+console.log(str1.toLowerCase())
+console.log(str1.toUpperCase())
+
