@@ -172,3 +172,20 @@ console.log ('*** Strings *** ');
 
 
 //* Chaining Methods
+
+let str = '     Clarusway Full Stack'
+
+
+let str1 = str.trim()
+
+let str2 = str1.slice(0,9)
+
+let str3= str2.toUpperCase()
+
+console.log(str1)
+console.log(str2)
+console.log(str3)
+
+//? with chaining 
+
+console.log(str.trim().slice(0,9).toUpperCase())
