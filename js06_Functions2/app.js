@@ -13,7 +13,7 @@
 console.log("***Arrow Function ***")
 
 
-//? ornek
+//? Eksempel 1
 
 const calculateAge = ( year) => new Date().getFullYear() - year
 console.log(`AGe:${calculateAge(1990)}`)
