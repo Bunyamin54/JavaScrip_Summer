@@ -162,3 +162,7 @@ const arr = ['red', 'blue', 'orange', 'black']   //* Black siler ve consola yazd
 
 
 console.log(arr.pop())
+
+const del = arr.pop()
+
+console.log(del) //* orange bu seferde en sondaki elemani sildi ve dondurdu.
