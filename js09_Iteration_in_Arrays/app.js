@@ -70,3 +70,23 @@
 //* for of loops
 
 //* for (grade of grades) //*  grades icindeki herbir grades 
+
+const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
+
+  
+ const findStudent = (name) => {
+   let counter = 0
+
+
+   for( let student of students) {
+    if(student === name) {  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
+        counter++
+    }
+
+   }
+  return counter
+ }
+
+ console.log(findStudent('ahmet'))
+ console.log(findStudent('ismet'))
+ console.log(findStudent('Alihan'))
