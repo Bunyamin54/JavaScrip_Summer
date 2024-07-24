@@ -81,3 +81,11 @@ console.log(str.includes("Welcome")) //* false
 let Ayse ="Akilli mi?"
 
 console.log(Ayse.includes("Akilli mi?")) //* true
+
+console.log(Ayse.includes('y', 2)) //* 3. indexten basladigi icin y harfini goremez
+
+//? indexof methods
+
+let str4 = "Clarusway"
+
+console.log(str4.indexOf('a',3)) //*  3 arama baslangic numarasi 
