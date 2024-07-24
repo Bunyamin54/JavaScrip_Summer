@@ -207,3 +207,9 @@ const arr = ['red', 'blue', 'orange', 'black']
 console.log(arr.splice(2,0 ,'White', 'Pink'))  //* 2. elemente git ve bu renkleri ekle
 
 console.log(arr)
+
+//* element degistirme
+
+console.log(arr.splice(3,1, 'Pink')) //* white git 1 eleman sil yerine 'Pink' ekler
+
+console.log(arr)
