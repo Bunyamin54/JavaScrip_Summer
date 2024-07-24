@@ -66,3 +66,18 @@
 
       console.log(myCar.speed)
       console.log(myCar["model"])
+
+      //*  Object constructir u kullanrak 
+
+      function Personel(id, name, age, salary) {
+
+     this.id = id 
+     this.age = age
+     this.name = name
+     this.salary = salary
+      }
+
+      const person1 = new Personel ("1234567", "Ahmet Can", 33, 30000)
+      const person2 = new Personel ("1234567", "Mehmet Can", 30, 25000)
+
+      console.log(person1)
