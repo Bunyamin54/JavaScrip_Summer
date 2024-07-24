@@ -156,8 +156,9 @@ console.log ('*** Strings *** ');
 
 //*Trim methods  bosluk alma  promt alirken kullanilabilir. bosluklari temizler
 
-let str= "   Welcome to Full Stack   "
+// let str= "   Welcome to Full Stack   "
 // console.log(str)
 // console.log(str.trim())
 // console.log(str.trimStart())
 // console.log(str.trimEnd())
+
