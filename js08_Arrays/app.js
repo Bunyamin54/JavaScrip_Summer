@@ -81,17 +81,17 @@
 
 //*  non primitivler
 
-let arr1 = [1, 2, 'Threee', false]
+// let arr1 = [1, 2, 'Threee', false]
 
-const arr2 = arr1
+// const arr2 = arr1
 
 
-console.log(arr1)
+// console.log(arr1)
 
-console.log(arr2)
+// console.log(arr2)
 
-arr1[0]= 0
+// arr1[0]= 0
 
-console.log(arr1)
+// console.log(arr1)
 
-console.log(arr2)
+// console.log(arr2)
