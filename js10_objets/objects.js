@@ -97,9 +97,18 @@
 
          calculateAge: function() {
 
-            return new Date().getFullYear() - dob
+            return new Date().getFullYear() - this.dob
 
+         },
+
+         summary: () => {
+            return ` ${this.name} is ${this.calculateAge()} years old`
          }
        }
 
        console.log(personel.name + " " + personel.surname)
+       console.log(personel.calculateAge())
+
+       console.log(personel.summary())
+
+       //* browser icersindeki tum objeler windov interfacedindedir. 
