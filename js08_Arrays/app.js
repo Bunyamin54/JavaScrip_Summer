@@ -98,7 +98,7 @@
 
 // ? Array methods
 
-//* slice methods
+//* slice methods  bu method soldan saga dogru calisirir
 
 
 const colors = ['Red', 'Green', 'Blue', 'Yellow', 'Brown' ]
