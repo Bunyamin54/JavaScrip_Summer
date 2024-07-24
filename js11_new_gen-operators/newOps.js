@@ -174,8 +174,8 @@
 //         console.log(araba1)
 //         console.log(gerikalanlar)
 
-//   // ? Rest obje 
-
+  // ? Rest obje 
+// 
 
 //   const kisi = {
 //     ad: "Canan",
@@ -315,7 +315,7 @@ const people = {
    //?  Objeler iterable degillerdir ancak for-in for of gibi dongu elemanlari ile ozel olarak itere edilebilirler
 
 
-   //! For  -Of
+   //! For  -Of- 
 
    //* for ( x og iterable) {
    //* code block to be executed}
