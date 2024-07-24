@@ -231,39 +231,99 @@
 
     //? Array copy
 
-    const myNumbers= [4, 5, 6]
+//     const myNumbers= [4, 5, 6]
 
-    const herNumbers = [1,2,3, ...myNumbers]
+//     const herNumbers = [1,2,3, ...myNumbers]
 
-    const hisNumbers= [...herNumbers]
-
-
-console.log(herNumbers ,myNumbers)
-console.log(hisNumbers)
+//     const hisNumbers= [...herNumbers]
 
 
-hisNumbers.push(7)
+// console.log(herNumbers ,myNumbers)
+// console.log(hisNumbers)
 
-console.log("MY:",myNumbers)
-console.log("HER:",herNumbers)
-console.log("HIS:",hisNumbers)
+
+// hisNumbers.push(7)
+
+// console.log("MY:",myNumbers)
+// console.log("HER:",herNumbers)
+// console.log("HIS:",hisNumbers)
 
 
 //? Object copyings
 
-const firstObj= { a: 1, b:2, c:3}
-const secondObj= { a: 2, d:3, c:4}
+// const firstObj= { a: 1, b:2, c:3}
+// const secondObj= { a: 2, d:3, c:4}
 
 
-const copiedfirstObj = { ...firstObj}
+// const copiedfirstObj = { ...firstObj}
 
-console.log(copiedfirstObj)
+// console.log(copiedfirstObj)
 
-copiedfirstObj.a = 44 //? nested olmadigi icin deep copy gibi davranir
+// copiedfirstObj.a = 44 //? nested olmadigi icin deep copy gibi davranir
 
-console.log(copiedfirstObj, firstObj)
+// console.log(copiedfirstObj, firstObj)
 
 
-const combinedObjs = {...firstObj , ...secondObj}
+// const combinedObjs = {...firstObj , ...secondObj}
 
-console.log(combinedObjs)
+// console.log(combinedObjs)
+
+
+//? nested  objets  -- for in for of methods best praksis
+const people = {
+    person1: {
+      name: "Can",
+      surname: "Canan",
+      dob: "1990",
+      job: "developer",
+      salary: "140000",
+      drivingLicense: true,
+    },
+    person2: {
+      name: "John",
+      surname: "Sweet",
+      dob: "1990",
+      job: "tester",
+      salary: "110000",
+      drivingLicense: false,
+    },
+    person3: {
+      name: "Steve",
+      surname: "Job",
+      dob: "2000",
+      job: "developer",
+      salary: "90000",
+      drivingLicense: true,
+    },
+  }
+
+
+  console.log("MAAS:" , people.person3.salary)
+
+  //! For  -In 
+  //* for (key in object) {
+  //* // code blovk to be executed}
+   for ( let person in people) {
+     
+    
+   console.log(person)
+//    console.log(people[person])  // * square  bracket notasyon
+   console.log(people[person].salary) 
+
+   }
+
+   //?  Objeler iterable degillerdir ancak for-in for of gibi dongu elemanlari ile ozel olarak itere edilebilirler
+
+
+   //! For  -Of
+
+   //* for ( x og iterable) {
+   //* code block to be executed}
+
+   console.log(Object.keys(people))
+   console.log(Object.values(people))
+   console.log(Object.entries(people))
+
+   for ( let v of Object.values(people)) {
+    console.log(v.job)
+   }
