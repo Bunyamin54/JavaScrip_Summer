@@ -111,3 +111,23 @@ console.log("*** Conditions ***")
 // }
 
 //? Short Circuit
+
+const age = 16
+let description 
+
+//? if else
+
+//  if (age >= 18 ) {
+//     description = "Adult"
+//  }
+
+// //? Ternary 
+// description = age >= 18 ? "Adult" : ""
+
+// //? Short-Ciruit
+
+// description = age>= 18 && "Adult"
+
+age >=18 && (description = "Adult")
+
+console.log(description)
