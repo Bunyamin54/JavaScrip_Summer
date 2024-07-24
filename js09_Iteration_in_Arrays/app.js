@@ -24,3 +24,6 @@ for (let i=0 ; i<grades.length; i++) {
 
      sum += grades[i]
 }
+
+ console.log("SUM:" ,sum) // 421
+ console.log("AVG:" , (sum / grades.length).toFixed(2)) //* 60.14
