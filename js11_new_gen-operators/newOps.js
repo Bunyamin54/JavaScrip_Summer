@@ -184,8 +184,8 @@
     meslek:"tester"
   }
 
-    const {meslek, ...bilgi} = kisi
+    const {meslek, yas, ...isim} = kisi
 
 
-    console.log(meslek)
-    console.log(bilgi)
+    console.log(meslek, yas)
+    console.log(isim)
