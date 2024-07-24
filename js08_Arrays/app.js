@@ -260,6 +260,24 @@
 // console.log(genc.join('*')) // A*y*s*e
 // console.log(genc.join('-')) // A-y-s-e
 
-//* sort methods  orginal array can change
+//* sort methods  orginal array can change  number olarak siralamak icin 
 
-const arr = ['red', 'blue', 'orange', 'black'] 
+
+  const arr= [55, 5, 22, 2, 11, 1, 111 ]
+
+
+    // arr.sort()
+
+    // console.log(arr)
+
+    //* acending sorting
+
+    // arr.sort((a,b) => a-b)
+
+    // console.log(arr)
+
+    //* descending sorting
+
+    // arr.sort((a,b) => b-a )
+
+    // console.log(arr)
