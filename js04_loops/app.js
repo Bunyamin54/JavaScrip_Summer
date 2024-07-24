@@ -2,6 +2,8 @@
 
  console.log("***** Lopps*****")
 
+ //* For loops
+
 // for (let i = 1; i <=99; i++) {
 
 //     console.log(`${i}- FS-14`)
@@ -29,15 +31,24 @@
 // console.log(`SUM: ${sum}`)
 
 
-const number= prompt ("How many numbers")
+// const number= prompt ("How many numbers")
 
-//? Math.random( =>  0- 1 rastgele sayi uretir)
-
-
-
-for (let sayac =1 ; sayac <= number; sayac++) {
+// //? Math.random( =>  0- 1 rastgele sayi uretir)
 
 
-    const rasgeleSayi =Math.round(Math.random () * 100)
-    console.log(`${sayac}. sayiniz ${rasgeleSayi}`)
-}
+
+// for (let sayac =1 ; sayac <= number; sayac++) {
+
+
+//     const rasgeleSayi =Math.round(Math.random () * 100)
+//     console.log(`${sayac}. sayiniz ${rasgeleSayi}`)
+// }
+
+//* While Loops
+
+
+  let i = 1
+ while (i < 10) {
+    console.log(i)
+    i++
+ }
