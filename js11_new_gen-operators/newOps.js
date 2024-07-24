@@ -114,6 +114,9 @@
 //       console.log("************")
 
 //     })
+  //? Function destructuring kullanimi 
+
+
 
   //? Functionun dondudurdugu obje dogrudan kullanilabilir.
     const getProduct = () => {
@@ -132,7 +135,7 @@
     console.log("Remanining Stock : " , stock)
 
 
-  
+   //? Parametre ile kullanimi 
 
     const data ={ id: "123",
         pName:  "NIKE",
