@@ -1,3 +1,4 @@
+   console.log("***Document Object Model***") //* Belge Nesne Modeli 
  //?   Dom DOCUMENT OBJECT MODEL
 
  //? API   client ile server arasinda calisan sistem  
@@ -9,4 +10,3 @@
  //* Dom Objects- Properties, Methods, Eventler tanimlar
 
 
- 
