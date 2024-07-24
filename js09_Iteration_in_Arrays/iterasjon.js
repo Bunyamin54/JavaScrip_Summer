@@ -38,10 +38,24 @@
 
 //* Map transform eder return ozelligi vardir . bir diziyi manipule edebiliriz
 
-let names = ['Mustafa', 'Murat',' Ahmnet', ' Mustafa', 'Ayse', 'canan']
+// let names = ['Mustafa', 'Murat',' Ahmnet', ' Mustafa', 'Ayse', 'canan']
 
-const upperName = names.map( name => name.toLocaleUpperCase())
+// const upperName = names.map( name => name.toLocaleUpperCase())
 
-console.log(upperName)
-console.log(names)
+// console.log(upperName)
+// console.log(names)
 
+//* eksempel  2
+
+
+const euro = 21.78
+const dolar =19.80
+
+const tlPrices = [100, 150, 100, 50, 80]
+
+const dolarPrices = tlPrices.map((tl) => Number ((tl/dolar).toFixed(2)))
+const euroPrices = tlPrices.map((tl) => Number ((tl/euro).toFixed(2)))
+
+console.log(dolarPrices)
+console.log(euroPrices)
+console.log(tlPrices)
