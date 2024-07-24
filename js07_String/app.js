@@ -23,8 +23,10 @@ console.log(str[6])
 
 //* tersten itereasyon
 
-for ( let i = str.length -1 ; i>=0; i--) {
+// for ( let i = str.length -1 ; i>=0; i--) {
 
 
-    console.log(str[i])
-}
+//     console.log(str[i])
+// }
+
+//* Strings immutable manupule edilemez
