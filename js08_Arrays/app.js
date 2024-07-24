@@ -230,3 +230,6 @@
 // console.log(destr)
 
 // console.log(color1)
+
+//* indexOf() && lastIndexOf()
+
