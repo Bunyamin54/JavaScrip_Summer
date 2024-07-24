@@ -47,4 +47,16 @@
 
     const zamliMaasToplami = mayislar.filter (m => m>= 6000 && m <= 10000).map((m )=> m*1.1).reduce((t,m) => t +m)
 
-    console.log("ZAMLI MAASLAR:", zamliMaasToplami )
+    console.log("ZAMLI MAASLAR:", zamliMaasToplami)
+
+    //* every()   conditionu test eder  - check etme islemi   tum elementler icicn test basarili ise true akti takdirde false dondudur.
+
+    const ages = [ 18, 22, 78, 34, 78, 79, 15]
+
+    const check = ages.every((age) => age >= 18)
+
+    check ? console.log("All ages are over 18") : console.log("Sum are under 18")
+
+    //* some ()  bir tanesi bile true ise true dondurur. 
+
+    //* 
