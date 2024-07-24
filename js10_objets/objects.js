@@ -11,7 +11,8 @@
      brand: "Mercedes",
      model:2020,
      speed:5,
-     color: ["pink", "black", "blue", "green"]
+     color: ["pink", "black", "blue", "green"],
+     engine: 2
   }
 
 
@@ -30,4 +31,27 @@
 
    //* key case sensetive yapilardir. 
 
-   
+
+   //? Obje degerinin degistirilmesi (write)  ekleme yazma yapiyoruz
+
+   car.speed = 7  //? writing  
+   car.color ="Morcivert"
+
+   car.class = "E"
+   console.log(car)
+
+
+   //! Objeler none primitive yapidadir.   stack - heap 
+
+
+
+   //* 2. yontem  Square Bracket yontemi ile erisim   objenin icindeki degiskenlereulasiyoruz  bu yotem ile
+
+
+    console.log("ENGINE:" , car["engine"])
+
+      const myKey = prompt( "Araba ile ilgili neyi ogrenmek istersiniz: speed, color, engine ....")
+
+
+        alert(car[myKey])
+
