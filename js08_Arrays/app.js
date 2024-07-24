@@ -138,6 +138,20 @@ const car = ['Audi', 'Tesla']
 const car2 = [ 'Ford', 'Tesla']
 
 
-car.push(car2)
+car.push(car2)  //*  [
+    "Audi",
+    "Tesla",
+    [
+        "Ford",
+        "Tesla"
+    ]
+
+
+// car.push(...car2)  //* 
+    "Audi",
+    "Tesla",
+    "Ford",
+    "Tesla"
+
 
 console.log(car)
