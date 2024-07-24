@@ -158,11 +158,21 @@
 
 //* pop () en sondaki elemani siler
 
-const arr = ['red', 'blue', 'orange', 'black']   //* Black siler ve consola yazdirir. 
+// const arr = ['red', 'blue', 'orange', 'black']   //* Black siler ve consola yazdirir. 
 
 
-console.log(arr.pop())
+// console.log(arr.pop())
 
-const del = arr.pop()
+// const del = arr.pop()
 
-console.log(del) //* orange bu seferde en sondaki elemani sildi ve dondurdu.
+// console.log(del) //* orange bu seferde en sondaki elemani sildi ve dondurdu.
+
+
+//* unshift()  basa ekleme yapar
+
+const arr = ['red', 'blue', 'orange', 'black'] 
+
+
+arr.unshift('Sari') //* basa ekler yeni olusan arrayin uzunlugunu verir
+
+console.log(arr)
