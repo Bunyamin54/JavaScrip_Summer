@@ -79,11 +79,11 @@ const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
 
 
    for( let student of students) {
-    if(student === name) {  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
-        counter++
+     student === name && counter++  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
+        
     }
 
-   }
+   
   return counter === 0 ?`${name} can not be found ` : `${name} found ${ counter} times`
  }
 
