@@ -50,8 +50,19 @@
 
     console.log("ENGINE:" , car["engine"])
 
-      const myKey = prompt( "Araba ile ilgili neyi ogrenmek istersiniz: speed, color, engine ....")
+    //   const myKey = prompt( "Araba ile ilgili neyi ogrenmek istersiniz: speed, color, engine ....")
 
 
-        alert(car[myKey])
+    //     alert(car[myKey])
 
+
+      //* " yontem Object(" classindan new operatoru ile   Object classindan turetme ile ayni zamandan 
+
+      const myCar = new Object()  //* new operatoru ile  new Key word Object classi   object clasi temel objeden  myCar uretmis olduk
+
+      myCar.brand = "Audi"
+      myCar.model = 2022
+      myCar.speed = 8
+
+      console.log(myCar.speed)
+      console.log(myCar["model"])
