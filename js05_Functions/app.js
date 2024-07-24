@@ -26,18 +26,39 @@
 
 //? parametrik functions
 
-function yazdirParametre (message, name) {
+// function yazdirParametre (message, name) {
 
 
-    console.log(message, name = "Cohort14")  //* Default paramtre
-}
+//     console.log(message, name = "Cohort14")  //* Default paramtre
+// }
 
-yazdirParametre("Hi", "FS-15" )
-yazdirParametre("Selam", "FS-16" )
-yazdirParametre("Chao", "FS-17" )
-yazdirParametre("Chao" )  //* undefined
-yazdirParametre("Hei" )  //* undefined
-yazdirParametre("Hello" )  //* default paramtre
+// yazdirParametre("Hi", "FS-15" )
+// yazdirParametre("Selam", "FS-16" )
+// yazdirParametre("Chao", "FS-17" )
+// yazdirParametre("Chao" )  //* undefined
+// yazdirParametre("Hei" )  //* undefined
+// yazdirParametre("Hello" )  //* default paramtre
 
 
 //* fonksiyonun cok fazla parametre olmasi okunurlugu azaltir
+
+
+//* ornek 
+
+
+//* Calculate
+
+console.log(new Date()) //* sistem tarihi ve saatini verir 
+
+function calculate (name, yob){
+    
+    // const age = 2024 -yob
+    const age = new Date().getFullYear() - yob
+    console.log(`${name} is ${age} years old.`)
+    return age
+}
+
+ 
+
+calculate("Ahmet",1990)
+calculate("Bunyamin",1985)
