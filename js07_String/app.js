@@ -76,3 +76,8 @@ console.log("*** Strings *** ")
 let str = "Hello John , welcome to Clarusway."
 
 console.log(str.includes("welcome")) //* true
+console.log(str.includes("Welcome")) //* false
+
+let Ayse ="Akilli mi?"
+
+console.log(Ayse.includes("Akilli mi?")) //* true
