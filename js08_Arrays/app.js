@@ -233,3 +233,13 @@
 
 //* indexOf() && lastIndexOf()
 
+
+//* Reverse methods  en sondaki arrayi en basa getirir siralar
+
+
+const arr = ['red', 'blue', 'orange', 'black'] 
+arr.reverse() //* sondan baslar siralama yapar
+
+console.log(arr)
+
+
