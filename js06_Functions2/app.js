@@ -60,6 +60,8 @@ let result = 0
             break;
     
         default:
+
+        alert("Incorrect Operator")
             break;
     }
 
