@@ -18,7 +18,7 @@
 
    //? Objenin okunmasi   ( read)
 
-   console.log(car.brand)  //* . notasyonu
+   console.log(car.brand)  //* 1.yontem method . notasyonu
 
    console.log(car.color[0]) //? pink
 
