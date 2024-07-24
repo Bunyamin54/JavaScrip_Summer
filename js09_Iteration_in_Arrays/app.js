@@ -71,25 +71,25 @@
 
 //*  for (grade of grades) //*  grades icindeki herbir grades 
 
-const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
+// const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
 
   
- const findStudent = (name) => {
-   let counter = 0
+//  const findStudent = (name) => {
+//    let counter = 0
 
 
-   for( let student of students) {
-     student === name.toLowerCase() && counter++  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
+//    for( let student of students) {
+//      student === name.toLowerCase() && counter++  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
         
-    }
+//     }
 
    
-  return counter === 0 ?`${name} can not be found ` : `${name} found ${ counter} times`
- }
+//   return counter === 0 ?`${name} can not be found ` : `${name} found ${ counter} times`
+//  }
 
- console.log(findStudent('ahmet'))
- console.log(findStudent('Ismet'))
- console.log(findStudent('Alihan'))
+//  console.log(findStudent('ahmet'))
+//  console.log(findStudent('Ismet'))
+//  console.log(findStudent('Alihan'))
 
 
   
