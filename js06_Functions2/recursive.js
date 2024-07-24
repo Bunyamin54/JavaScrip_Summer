@@ -8,3 +8,5 @@
 // * fibonaci kendinden oncekini topla 1 -1 -2 3- 5- 8- 13- 21  
 
 //* agile ticket login.js  - estimation tid
+
+// * 6 estimation + 6 estimation 2 dyas
