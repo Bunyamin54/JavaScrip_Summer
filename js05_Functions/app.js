@@ -67,12 +67,61 @@
 //* ornek 2 */
 
 
-function add (num1, num2) {
-  return num1 + num2
+// function add (num1, num2) {
+//   return num1 + num2
+// }
+
+
+// const reult1= add(3,5)
+// const reult2= add(5,9)
+
+// console.log(reult1, reult2)
+
+// * console girilen bir sayinin tek veya cift oldugunu hesaplayan ve sonucu ana       programa donduren kodu fonksiyonlar ile yazma
+
+
+// function isEvenOrOdd(num) {
+
+//     if(num%2 === 0) {
+//        return "EVEN" 
+//     }else {
+//         return "ODD"
+//     }
+
+// return
+// }
+
+
+// const num = prompt ("Please enter a number")
+// isEvenOrOdd(num1)
+
+// console.log(`${num} is ${isEvenOrOdd(num)}`)
+
+
+ //* Alternatigf   yontem
+
+// function isEvenOrOdd(num1) {
+//    let result 
+//     if(num%2 === 0) {
+//        return "EVEN" 
+//     }else {
+//         return "ODD"
+//     }
+
+// return result
+// }
+
+
+// const num1 = prompt ("Please enter a number")
+
+// console.log(`${num1} is ${isEvenOrOdd(num1)}`)
+
+//* Alternatif ternary
+
+function isEvenOrOdd(num) {
+   return num % 2 === 0 ? "EVEN" : "ODD"
 }
 
+const num = prompt ("Please enter a number")
 
-const reult1= add(3,5)
-const reult2= add(5,9)
-
-console.log(reult1, reult2)
+console.log(`${num} is ${isEvenOrOdd(num)}`)
