@@ -172,6 +172,9 @@
 
 const arr = ['red', 'blue', 'orange', 'black'] 
 
+const arr1 = ['kirmizi', 'beyaz']
+
+arr.unshift(...arr1)
 
 arr.unshift('Sari') //* basa ekler yeni olusan arrayin uzunlugunu verir
 
