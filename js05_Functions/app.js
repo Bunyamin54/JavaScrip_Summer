@@ -16,7 +16,7 @@
 //! Decalaration -  Fonksiyonun tanimlanmasi
 
 // function yazdirMerhaba() {
-//     // alert("Merhaba FS-14")
+    // alert("Merhaba FS-14")
 //     console.log("Merhaba FS-14")
 // }
 
