@@ -1,0 +1,4 @@
+ 
+ // ********** Functions **********
+
+ console.log(" *** Functions *** ")
