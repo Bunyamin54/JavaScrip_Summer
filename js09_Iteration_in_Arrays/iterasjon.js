@@ -4,7 +4,7 @@
 
 //? callback funkcion
 
-//* Foreach  -orjinal diziyi degistirmez  callback function alir 3 paramter alir 1. si deger 2. paramtere indisi. 3. paramtere arrayi gosterir  forEach sadece dizilerde kullanilir  array olmayan yerde dizi kullanilamaz
+//* Foreach  -orjinal diziyi degistirmez  callback function alir 3 paramter alir 1. si deger 2. paramtere indisi. 3. paramtere arrayi gosterir  forEach sadece dizilerde kullanilir  array olmayan yerde dizi kullanilamaz. Array disi yapilar ile calismaz. klasik yontemlere gore daha yavas calisirlar. jenerik bir yapi genel bir ifade ile yazildigindan dolayi
 
 
 const prices = [ 250, 150, 300, 500]
