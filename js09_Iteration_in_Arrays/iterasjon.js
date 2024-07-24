@@ -36,5 +36,12 @@
 //    console.log("SUM", sum)
 //* Map() methods  Array.map()  orjinal diziyi degistirmez paramatre olarak icerisine  callback alirlar - deger- indis- dizi   map return ozelligi vardir. modifiye transformasyona ugratir. 
 
+//* Map transform eder return ozelligi vardir . bir diziyi manipule edebiliriz
 
+let names = ['Mustafa', 'Murat',' Ahmnet', ' Mustafa', 'Ayse', 'canan']
+
+const upperName = names.map( name => name.toLocaleUpperCase())
+
+console.log(upperName)
+console.log(names)
 
