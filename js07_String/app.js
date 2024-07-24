@@ -112,3 +112,4 @@ console.log(str.lastIndexOf("o")) //* 22
 let str1 = ' You do not know what do not know until you know'
 
 console.log(str1.search("know")) // 12
+console.log(str1.search(/know/)) // 12 with regular expression
