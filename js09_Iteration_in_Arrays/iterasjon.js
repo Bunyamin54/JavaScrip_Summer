@@ -60,7 +60,7 @@
 // console.log(euroPrices)
 // console.log(tlPrices)
 
-//* Filter methods()   return ozelligine sahip - suzerek dizi dondururur.  3 parametre valus- indis-loop 
+//* Filter methods()   return ozelligine sahip - suzerek dizi dondururur.  3 parametre valus- indis-loop   map de filterde her zaman bos array dondurur. 
 
 const salaries = [ 5500, 8000, 6500, 9000, 10000,15000, 25000]
 
