@@ -68,49 +68,71 @@
 //   console.log(c2name, c2model)
 
 
-  //* Example
-const team = [
-    {
-      name: "Josh",
-      surname: "Barry",
-      job: "developer",
-      age: 30,
-    },
-    {
-      name: "Josh",
-      surname: "Barry",
-      job: "tester",
-      age: 45,
-    },
-    {
-      name: "Hazel",
-      surname: "Nut",
-      job: "team lead",
-      age: 40,
-    } ]
+//   //* Example
+// const team = [
+//     {
+//       name: "Josh",
+//       surname: "Barry",
+//       job: "developer",
+//       age: 30,
+//     },
+//     {
+//       name: "Josh",
+//       surname: "Barry",
+//       job: "tester",
+//       age: 45,
+//     },
+//     {
+//       name: "Hazel",
+//       surname: "Nut",
+//       job: "team lead",
+//       age: 40,
+//     } ]
 
 
-     //? Klasik methods
+//      //? Klasik methods
 
-    team.forEach(( t) => {
-
-
-        console.log("Name: ", t.name)
-        console.log("Surname: ", t.surname)
-        console.log("job: ", t["job"])
-        console.log("Name: ", t["age"])
-        console.log("************")
-    })
-
-    //? Destructurings methods
+//     team.forEach(( t) => {
 
 
-    team.forEach((person) => {
-      const { name, surname,job, age}  = person 
-      console.log("Name: ", name)
-      console.log("Surname: ", surname)
-      console.log("job: ", job)
-      console.log("Name: ",age)
-      console.log("************")
+//         console.log("Name: ", t.name)
+//         console.log("Surname: ", t.surname)
+//         console.log("job: ", t["job"])
+//         console.log("Name: ", t["age"])
+//         console.log("************")
+//     })
 
-    })
+//     //? Destructurings methods
+
+
+//     team.forEach((person) => {
+//       const { name, surname,job, age}  = person 
+//       console.log("Name: ", name)
+//       console.log("Surname: ", surname)
+//       console.log("job: ", job)
+//       console.log("Name: ",age)
+//       console.log("************")
+
+//     })
+
+  //? Functionun dondudurdugu obje dogrudan kullanilabilir.
+    const getProduct = () => {
+
+     return {
+            id: "123",
+            pName:  "NIKE",
+            price: 300,
+            stock: 1000,
+
+     }
+    }
+
+    console.log(getProduct())
+
+    let {pName, price, stock } = getProduct()
+
+    console.log("PRoduct Name:", pName, "Price:", price)
+
+    stock = stock  - 100
+
+    console.log("Remanining Stock : " , stock)
