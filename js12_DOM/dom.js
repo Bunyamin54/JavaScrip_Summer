@@ -99,9 +99,19 @@
      lists[4].textContent =`<h1> Vue</h1>` //* metin olarak algilar
  
 
-      //* Query sellectør () hem id hem tag 
-
-   //* id secildi   id seciyorsum  dies ile
+      //* Query sellectør () hem id hem tag hem clas secilebilir.  bu secici akista gordugu ilk elementi secer tek bir element secer
+  
+   //* id secildi   id seciyorsum  dies ile  (#)
       const header = document.querySelector("#header")
 
       console.log(header)
+
+    //* clas secildi (.)
+      const itemList = document.querySelector(".item-list")
+
+      console.log(itemList)
+     
+      //* tag secilmis  tag ise hicbirsey koymuyorsun 
+      const  h2= document.querySelector("h2")
+
+      console.log(h2)
