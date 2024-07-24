@@ -133,3 +133,10 @@
       const listeler = document.querySelectorAll("ul li")
 
       console.log(listeler)
+
+      listeler.forEach((li) => console.log(li))
+
+  for ( const liste of listeler.values()) {
+    console.log(liste)
+  }
+      
