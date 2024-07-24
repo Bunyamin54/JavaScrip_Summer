@@ -21,4 +21,4 @@ const func1 = () => {
 func1()
 
 console.log(number1) //? local degisken 
-console.log(number2) //? global number2 gorururz 
+console.log(number2) //? global number2 gorururuz
