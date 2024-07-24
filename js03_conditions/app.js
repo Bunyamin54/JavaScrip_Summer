@@ -86,13 +86,18 @@ console.log("*** Conditions ***")
 //? Ternary methods
 
 
-const grade = prompt ("Plase enter your grade:")
+// const grade = prompt ("Plase enter your grade:")
 
-grade >= 50? console.log("Succeed") : console.log("Failed")
+// grade >= 50? console.log("Succeed") : console.log("Failed")
 
-//! kosul ----- durum 1 if --- durum 2
+// //! kosul ----- durum 1 if --- durum 2
 
 
-const score = grade >= 50? "Passed" : "Failed"
+// const score = grade >= 50? "Passed" : "Failed"
 
-console.log(score)
+// console.log(score)
+
+//? Nesteds ternry anlasilabilirligi azaltiyor 
+const speed = 110
+
+speed > 120 ? console.log("Speedy") : speed >= 90 ? console.log("Normal") : console.log("Low Speed")
