@@ -22,4 +22,3 @@ function yazdirMerhaba() {
 
 
 yazdirMerhaba() //*  invoke - veya call fonksiyonun cagrilmasi 
-yazdirMerhaba()
