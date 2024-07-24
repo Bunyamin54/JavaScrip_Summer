@@ -79,7 +79,7 @@ const students = ['ahmet', 'mehmet','saffet', 'ismet', 'ahmet',' saffet']
 
 
    for( let student of students) {
-     student === name && counter++  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
+     student === name.toLowerCase() && counter++  //* aranan dizinin icindeki elemana esitse o zaman sayici bir artir demek bu
         
     }
 
