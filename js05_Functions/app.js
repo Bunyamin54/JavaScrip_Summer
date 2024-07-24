@@ -29,13 +29,15 @@
 function yazdirParametre (message, name) {
 
 
-    console.log(message, name)
+    console.log(message, name = "Cohort14")  //* Default paramtre
 }
 
 yazdirParametre("Hi", "FS-15" )
 yazdirParametre("Selam", "FS-16" )
 yazdirParametre("Chao", "FS-17" )
 yazdirParametre("Chao" )  //* undefined
+yazdirParametre("Hei" )  //* undefined
+yazdirParametre("Hello" )  //* default paramtre
 
 
 //* fonksiyonun cok fazla parametre olmasi okunurlugu azaltir
