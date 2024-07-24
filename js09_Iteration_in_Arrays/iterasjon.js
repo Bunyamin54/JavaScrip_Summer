@@ -24,7 +24,8 @@
 
 //* ornek foreach 
 
-//* ForEach returnsuz veri tipi olmayan bir fonksiyondur void dir
+//* ForEach returnsuz veri tipi olmayan bir fonksiyondur void methoddur dir. her hangi bir deger dondurmez.
+//* FroEach ile dongu icersinde herhangi bir item okunabilir, listelenebilir, veya yazdirilabilir. Ancak bu degeri dondurmek mumkun degildir. 
 
 // const prices = [ 250, 150, 300, 500]
 
