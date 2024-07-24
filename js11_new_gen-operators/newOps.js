@@ -161,6 +161,9 @@
 
         console.log(ahmo, ismo, saffo)
 
+   //? Array destructuringde sira ve sayi onemli 
+   //? Rest array kullanimi 
+
 
         //? Rest operatoru (...) - degerleri dizi icersinde kullanilir ...  geri kalaanlarini ayri dizi icersinde konumlandirir. restin en son element olmasi gerekerir. 
 
@@ -171,3 +174,18 @@
         console.log(araba1)
         console.log(gerikalanlar)
 
+  // ? Rest obje 
+
+
+  const kisi = {
+    ad: "Canan",
+    soyad: "Cano",
+    yas: 33,
+    meslek:"tester"
+  }
+
+    const {meslek, ...bilgi} = kisi
+
+
+    console.log(meslek)
+    console.log(bilgi)
