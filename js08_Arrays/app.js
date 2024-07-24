@@ -217,16 +217,16 @@
 
 //* concat()  methods 
 
-const color1 = ['red', 'green']
-const color2 = ['blue', 'orange']
-const color3 = ['10', 'true']
+// const color1 = ['red', 'green']
+// const color2 = ['blue', 'orange']
+// const color3 = ['10', 'true']
 
 // const birlestir = color1.concat(color2, color3)
 
 // console.log(birlestir)
 
-const destr= color1.push(...color2, ...color3)  //* destructuin methods 
+// const destr= color1.push(...color2, ...color3)  //* destructuin methods 
 
-console.log(destr)
+// console.log(destr)
 
-console.log(color1)
+// console.log(color1)
