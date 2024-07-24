@@ -301,3 +301,4 @@ console.log(arr[0]) //* 1
 console.log(arr[1]) //* true
 console.log(arr[2]) //* (3) [3, 'red', 5]
 console.log(arr[3]) //* (3) [6, 7, 8]
+console.log(arr[3][0])  //* 6
