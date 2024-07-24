@@ -129,3 +129,7 @@
       console.log(react)
 
       //* Queryselectorall()
+
+      const listeler = document.querySelectorAll("ul li")
+
+      console.log(listeler)
