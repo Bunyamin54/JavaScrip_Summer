@@ -54,3 +54,5 @@
 
     //? deger okuma
     console.log(h1.textContent)
+    console.log(h1.innerText)
+    console.log(h1.innerHTML)
