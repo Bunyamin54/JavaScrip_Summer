@@ -47,7 +47,10 @@
     console.log(h1)
 
     //* deger atama Yazi elementleri icindeki degeri okuyabilir veya deger atayabiliriz. 
-
+   
+    //? deger atama
     h1.textContent = "DOM  Introduction"
+   
 
+    //? deger okuma
     console.log(h1.textContent)
