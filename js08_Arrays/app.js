@@ -263,16 +263,16 @@
 //* sort methods  orginal array can change  number olarak siralamak icin 
 
 
-  const arr= [55, 5, 22, 2, 11, 1, 111 ]
+//   const arr= [55, 5, 22, 2, 11, 1, 111 ]
 
 
-    // arr.sort()
+    // arr.sort() //* string olarak siralar
 
     // console.log(arr)
 
     //* acending sorting
 
-    // arr.sort((a,b) => a-b)
+    // arr.sort((a,b) => a-b)  //* numeretik olarak siralar
 
     // console.log(arr)
 
@@ -281,3 +281,11 @@
     // arr.sort((a,b) => b-a )
 
     // console.log(arr)
+
+
+//* includes() methods  var mi yok mu deger dondurur boolean degeri 
+
+
+const arr = ['red', 'white',' yellow']
+
+console.log(arr.includes('white')) //* true
