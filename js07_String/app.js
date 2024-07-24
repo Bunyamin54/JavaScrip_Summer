@@ -164,8 +164,11 @@ console.log ('*** Strings *** ');
 
 //* StartsWith & endWith  boolean true or false
 
-let str = 'clarusway@Clarusway.com is our e-mail address'
+// let str = 'clarusway@Clarusway.com is our e-mail address'
 
-console.log(str.startsWith('clarusway')) //* True
-console.log(str.startsWith('Clarusway')) //* False
-console.log(str.startsWith('Clarusway',10)) //* true
+// console.log(str.startsWith('clarusway')) //* True
+// console.log(str.startsWith('Clarusway')) //* False
+// console.log(str.startsWith('Clarusway',10)) //* true
+
+
+//* Chaining Methods
