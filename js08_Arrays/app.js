@@ -132,3 +132,12 @@
 
 
 //* 
+
+const car = ['Audi', 'Tesla']
+
+const car2 = [ 'Ford', 'Tesla']
+
+
+car.push(car2)
+
+console.log(car)
