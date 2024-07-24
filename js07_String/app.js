@@ -97,3 +97,4 @@ let mail = prompt ('Email adresini giriniz:')
 
 console.log(mail.includes("@"))
 
+//* You don't know what you don't know until you know.
