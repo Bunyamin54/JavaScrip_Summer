@@ -50,19 +50,23 @@
 
 //* for in loops  length kullanamamiza gerek yok for in donugusu zaten sonuna kadar sayar  , amac iterasyonun basitlestirmek
 
-//* eksempel 
+//* Eksempel 
 
-const grades = [55, 77, 23, 89, 100, 44, 33,45]
+// const grades = [55, 77, 23, 89, 100, 44, 33,45]
 
-const lessThan50 = []
-const equalOrBiggerThan = []
+// const lessThan50 = []
+// const equalOrBiggerThan = []
 
-for(let i in grades) {
+// for(let i in grades) {
 
-  grades[i] < 50 ? lessThan50.push(grades[i]) : equalOrBiggerThan.push(grades[i])
+//   grades[i] < 50 ? lessThan50.push(grades[i]) : equalOrBiggerThan.push(grades[i])
 
-}
+// }
 
-console.log(lessThan50)
-console.log(equalOrBiggerThan)
-console.log(grades)
+// console.log(lessThan50)
+// console.log(equalOrBiggerThan)
+// console.log(grades)
+
+//* for of loops
+
+//* for (grade of grades) //*  grades icindeki herbir grades 
