@@ -102,10 +102,12 @@ console.log("*** Conditions ***")
 
 // speed > 120 ? console.log("Speedy") : speed >= 90 ? console.log("Normal") : console.log("Low Speed")
 
-if( speed >120) {
-    console.log("Speedy")
-}else if(speed >= 90 ){
-    console.log("Normal")
-}else {
-    console.log("Low Speed")
-}
+// if( speed >120) {
+//     console.log("Speedy")
+// }else if(speed >= 90 ){
+//     console.log("Normal")
+// }else {
+//     console.log("Low Speed")
+// }
+
+//? Short Circuit
