@@ -26,4 +26,8 @@
 //* Reduce -> Accumulative islemler yapar birikimli ardisik islem yapar
 //*  reduce de iki zorunluluk var 
 
-Array.reduce((acc.value, i,arr) => )
+//* Array.reduce((acc.value, i,arr) => )
+
+    //* Reduce dizi dondurmez deger number primitiv dondurur. dizi dondurmez.  cikisina filter map konulmaz cikisi sayidir. primitivdir. 
+
+    //* reduce methods also consumingdir  baslangic degeri vermek gerekir. 
