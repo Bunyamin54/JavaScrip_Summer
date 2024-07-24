@@ -132,6 +132,8 @@
  {name: "Ayse", surname:"Genc", job:"Designer", age:12},
  ]
 
+   
+
    console.log(team)
    console.log(team[1].name)  // Hasan
 
