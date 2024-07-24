@@ -135,7 +135,7 @@ console.log ('*** Strings *** ');
 
 //* Split () methods  tek bir array halinde donduruyor  Stringi arraye cevirirz
 
-let str = 'Welcome to: Full Stack'
+// let str = 'Welcome to: Full Stack'
 
 // console.log(str.split())  //* [" Welcome to : Full Stack"]  no seperator
 
@@ -148,8 +148,16 @@ let str = 'Welcome to: Full Stack'
 
 //* toUpperCase & tolowerCase  buyuk harf kucuk harf
 
-let str1= ' Welcome to Full Stack'
+// let str1= ' Welcome to Full Stack'
 
-console.log(str1.toLowerCase())
-console.log(str1.toUpperCase())
+// console.log(str1.toLowerCase())
+// console.log(str1.toUpperCase())
 
+
+//*Trim methods  bosluk alma
+
+let str= "   Welcome to Full Stack   "
+// console.log(str)
+// console.log(str.trim())
+// console.log(str.trimStart())
+// console.log(str.trimEnd())
