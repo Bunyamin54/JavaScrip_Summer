@@ -37,3 +37,20 @@
   const {model} = car  //* destructuring methods
 
   console.log(model)
+
+
+  //* EXAMPLE: NESTED
+const cars = {
+    car1: {
+      name: "BMW",
+      model: 1990,
+      engine: 1.6,
+    },
+    car2: {
+      name: "Mercedes",
+      model: 2022,
+      engine: 2.0,
+    },
+    car3: ["anadol", "togg", "devrim"],
+    car4: "kağnı",
+  }
