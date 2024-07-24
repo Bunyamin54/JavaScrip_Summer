@@ -24,3 +24,10 @@
    console.log(car) //! suslu ile gosterilirse objedir. 
 
    console.log(car.color)
+
+   car.color.forEach((c)=> console.log(c))  //* diziyi donduk  
+
+
+   //* key case sensetive yapilardir. 
+
+   
