@@ -67,3 +67,4 @@ const salaries = [ 5500, 8000, 6500, 9000, 10000,15000, 25000]
  const biggerThan = salaries.filter( salary => salary >= 10000)
 
  console.log(biggerThan)
+ console.log(salaries)
