@@ -130,3 +130,15 @@
     console.log("PRoduct Name:", pName, "Price:", price)
     stock = stock  - 100
     console.log("Remanining Stock : " , stock)
+
+
+  
+
+    const data ={ id: "123",
+        pName:  "NIKE",
+        price: 300,}
+
+        const print = function({pName, price})  {  //? Yolda havada deestructuring 
+            console.log(pName,price)
+        }  
+        print(data)
