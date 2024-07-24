@@ -2,15 +2,15 @@
 
  //* ordered list
 
- const arr = [1,2, "true", 3]  
+//  const arr = [1,2, "true", 3]  
 
  //* literel methods  const arr = [100, "clarusway", true]  modern methods 
 
  //* with new keyword   
 
- const dizi = new Array (100, 'CW', true)
+//  const dizi = new Array (100, 'CW', true)
 
- console.log(dizi)
+//  console.log(dizi)
 
  //* son elemana length -1 kullanilarak buluruz
 
@@ -23,10 +23,26 @@
 
  //* Array is Array
 
+//  const colors = [ 'Red', 'Green', 'Blue']
+
+//  console.log(typeof colors)
+
+
+//  console.log(Array.isArray(colors)) //* true
+//  console.log(colors instanceof Array) //* true
+
+
+
+//* String immutable   degistirelemez
+
+// let str = 'Brown'
+
+// console.log(str[0])
+//     str[0]=' b'
+//     console.log(str)
+
+//     str = 'brown'
+
+
  const colors = [ 'Red', 'Green', 'Blue']
 
- console.log(typeof colors)
-
-
- console.log(Array.isArray(colors)) //* true
- console.log(colors instanceof Array) //* true
