@@ -193,9 +193,17 @@
 //* splice  methods   2 parametre verioyruz 1. nereye gidecek 2. si kac tane silecek
 
 
+// const arr = ['red', 'blue', 'orange', 'black'] 
+
+
+// console.log(arr.splice(2,1))
+// console.log(arr.splice(2,)) //* 2. indexe git geri kalanini siler
+// console.log(arr)
+
+//* element ekleme
+
 const arr = ['red', 'blue', 'orange', 'black'] 
 
-
-console.log(arr.splice(2,1))
+console.log(arr.splice(2,0 ,'White', 'Pink'))  //* 2. elemente git ve bu renkleri ekle
 
 console.log(arr)
