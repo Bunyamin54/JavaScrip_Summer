@@ -46,3 +46,16 @@
 
  const colors = [ 'Red', 'Green', 'Blue']
 
+colors [1] = 'yellow'
+
+console.log(colors)
+
+colors [3] = 'White'
+
+console.log(colors)
+
+ let c = 'pink'
+
+ colors[4] = c
+
+ console.log(colors)
