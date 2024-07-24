@@ -130,4 +130,7 @@ let description
 
 age >=18 && (description = "Adult")
 
+
+age >= 18 || (description = "Adult")
+
 console.log(description)
