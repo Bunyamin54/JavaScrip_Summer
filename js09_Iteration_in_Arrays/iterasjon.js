@@ -47,15 +47,17 @@
 
 //* eksempel  2
 
+ //! Orjinal diziyi modifiye etmek icin 3. parametre kullanilmalidir
+// const euro = 21.78
+// const dolar =19.80
 
-const euro = 21.78
-const dolar =19.80
+// const tlPrices = [100, 150, 100, 50, 80]
 
-const tlPrices = [100, 150, 100, 50, 80]
+// const dolarPrices = tlPrices.map((tl) => Number ((tl/dolar).toFixed(2)))
+// const euroPrices = tlPrices.map((tl) => Number ((tl/euro).toFixed(2)))
 
-const dolarPrices = tlPrices.map((tl) => Number ((tl/dolar).toFixed(2)))
-const euroPrices = tlPrices.map((tl) => Number ((tl/euro).toFixed(2)))
+// console.log(dolarPrices)
+// console.log(euroPrices)
+// console.log(tlPrices)
 
-console.log(dolarPrices)
-console.log(euroPrices)
-console.log(tlPrices)
+//* Filter methods() 
