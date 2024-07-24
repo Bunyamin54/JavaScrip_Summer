@@ -34,5 +34,7 @@
 //  prices.forEach (price => (sum += price))
 
 //    console.log("SUM", sum)
-//* Map() methods  Array.map()
+//* Map() methods  Array.map()  orjinal diziyi degistirmez paramatre olarak icerisine  callback alirlar - deger- indis- dizi   map return ozelligi vardir. modifiye transformasyona ugratir. 
+
+
 
