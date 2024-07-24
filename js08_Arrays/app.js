@@ -133,25 +133,25 @@
 
 //* 
 
-const car = ['Audi', 'Tesla']
+// const car = ['Audi', 'Tesla']
 
-const car2 = [ 'Ford', 'Tesla']
+// const car2 = [ 'Ford', 'Tesla']
 
 
-car.push(car2)  //*  [
-    "Audi",
-    "Tesla",
-    [
-        "Ford",
-        "Tesla"
-    ]
+// car.push(car2)  //*  [
+//     "Audi",
+//     "Tesla",
+//     [
+//         "Ford",
+//         "Tesla"
+//     ]
 
 
 // car.push(...car2)  //* 
-    "Audi",
-    "Tesla",
-    "Ford",
-    "Tesla"
+//     "Audi",
+//     "Tesla",
+//     "Ford",
+//     "Tesla"
 
 
-console.log(car)
+// console.log(car)
