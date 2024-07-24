@@ -6,3 +6,8 @@
 
 
 //* FUNCTION methods function declaration  function expression -- arrow fonksiyonu
+
+
+//* arrow 
+
+console.log("***Arrow Function ***")
