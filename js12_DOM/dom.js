@@ -10,3 +10,13 @@
  //* Dom Objects- Properties, Methods, Eventler tanimlar
 
 
+   //* GET ELEMENT BYID()
+
+//    document.getElementById("header").style.border = "1px solid red"
+  const myHeader = document.getElementById("header")  //* degiskene de atayabiliyoruz. myHeader orneginde oldugu gibi.
+
+  console.log(myHeader)
+
+  myHeader.style.backgroundColor = "red"
+  myHeader.style.color = "white"
+
