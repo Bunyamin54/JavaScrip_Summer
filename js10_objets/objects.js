@@ -103,6 +103,7 @@
 
          summary: () => {
             return ` ${this.name} is ${this.calculateAge()} years old`
+             //* arrow callback icin kullanmak mantikli arrow function ana scope baglidir. Lexical scope  dur bulundugu scope gostermez , ana scope window gosterir
          }
        }
 
