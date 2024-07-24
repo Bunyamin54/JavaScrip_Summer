@@ -61,10 +61,22 @@ if ( n1 > n2){
 }
 
 
-if (n1 >  n2 && n1 > n3) {
+if (n1 >=  n2 && n1 >= n3) {
     console.log("Biggest:", n1)
 }else if(n2 > n1 && n2> n3) {
     console.log("Biggest:", n2)
 }else if (n3 > n1 && n3 > n2){
     console.log("Biggest:" , n3)
+}
+
+//? Andre methods
+
+let biggest = n1
+
+if (n2 >= biggest) {
+    biggest = n=2
+}
+
+if (n3 >=biggest){
+    biggest=n3
 }
