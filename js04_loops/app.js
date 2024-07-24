@@ -13,17 +13,31 @@
 //     console.log("Selam")
 // }
 
-const n = prompt("Enter your number")
+// const n = prompt("Enter your number")
 
-let sum = 0  //* global degisken
+// let sum = 0  //* global degisken
 
-for (let i = 1 ; i<= n ; i++) {
+// for (let i = 1 ; i<= n ; i++) {
 
 
-    //! lokal degisken
-    // sum = sum + 1
-    sum += i //* kisa hali
-    console.log(sum)
+//     //! lokal degisken
+//     // sum = sum + 1
+//     sum += i //* kisa hali
+//     console.log(sum)
+// }
+
+// console.log(`SUM: ${sum}`)
+
+
+const number= prompt ("How many numbers")
+
+//? Math.random( =>  0- 1 rastgele sayi uretir)
+
+
+
+for (let sayac =1 ; sayac <= number; sayac++) {
+
+
+    const rasgeleSayi = Math.random()
+    console.log(rasgeleSayi)
 }
-
-console.log(`SUM: ${sum}`)
