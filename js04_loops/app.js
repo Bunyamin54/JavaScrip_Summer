@@ -38,6 +38,6 @@ const number= prompt ("How many numbers")
 for (let sayac =1 ; sayac <= number; sayac++) {
 
 
-    const rasgeleSayi = Math.random()
+    const rasgeleSayi =Math.round(Math.random () * 100)
     console.log(rasgeleSayi)
 }
