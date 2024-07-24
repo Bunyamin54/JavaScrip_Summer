@@ -124,8 +124,8 @@
 
 //* push () methods   adds new elemenet to the end of an array
 
-const arr = [ 'red', 'blue']
+// const arr = [ 'red', 'blue']
 
-arr.push('orange')
+// arr.push('orange')
 
-    console.log(arr)
+//     console.log(arr)
