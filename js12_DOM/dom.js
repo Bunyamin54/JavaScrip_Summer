@@ -91,3 +91,9 @@
      const listsArr = [...lists]
 
      listsArr.forEach((li) => console.log(li))
+
+     //* inner html guvenli degil ama yazmasi kolay
+
+     lists[2].innerHTML =`<h1> JavaScript</h1>`
+     lists[3].innerText =`<h1> React </h1>`  //* metin olarak algilar
+     lists[4].textContent =`<h1> Vue</h1>` //* metin olarak algilar
