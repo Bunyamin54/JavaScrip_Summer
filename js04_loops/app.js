@@ -2,9 +2,9 @@
 
  console.log("***** Lopps*****")
 
-for (let i = 1; i <=90; i++) {
+for (let i = 1; i <=99; i++) {
 
-    console.log("Chort 14")
+    console.log(`${i}- FS-14`)
 }
 
 
