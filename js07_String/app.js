@@ -128,6 +128,10 @@ console.log ('*** Strings *** ');
 
 //* Replace all
 
-let str = 'Mr Brown has a brown house and a brown car';
+// let str = 'Mr Brown has a brown house and a brown car';
 
-console.log (str.replaceAll ('Brown', 'red')); //* sorguya uyan tum sonuclari degistirri.
+// console.log (str.replaceAll ('Brown', 'red')); //* sorguya uyan tum sonuclari degistirri.
+
+
+//* Split () methods
+
