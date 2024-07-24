@@ -31,3 +31,10 @@
     //* Reduce dizi dondurmez deger number primitiv dondurur. dizi dondurmez.  cikisina filter map konulmaz cikisi sayidir. primitivdir. 
 
     //* reduce methods also consumingdir  baslangic degeri vermek gerekir. 
+
+    const mayislar = [5500, 8000, 6500, 9000, 10000, 25000]
+
+    const toplamMayis = mayislar.reduce( ( toplam, deger) => toplam + deger , 0)
+
+
+    console.log("Toplam Mayis:", toplamMayis)
