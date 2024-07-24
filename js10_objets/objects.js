@@ -122,3 +122,53 @@
 
     //* Json  => Javascript object notation  Dizi icersindeki obje YAPILARINA JSON DERIZ  [{}, {}, {}]  DIZI ICERSINDE   { name:
     //* surname: age : salary :}  normal obje
+
+
+    const team = [
+
+
+ {name: "Ahmet", surname:"Can", job:"Devoloper", age:30},
+ {name: "Hasan", surname:"Can", job:"Backend utvikler", age:20},
+ {name: "Ayse", surname:"Genc", job:"Designer", age:12},
+ ]
+
+   console.log(team)
+   console.log(team[1].name)  // Hasan
+
+   console.log(team[2].age) // 12
+
+  // * Team dizisindeki job lari tek tek yazdiriniz. 
+
+   team.forEach(p => console.log(p.job)) 
+
+   //* age bir artirara yeni bir diziye aktariniz
+
+
+   const personalAges = team.map( person  => person.age + 1)
+
+   console.log(personalAges)
+
+   //* Name ve surname birlestiri buyuk harfe ceviren bunu fullname keyi olarak saklayan ayni zamanda age degerini 5 artirarark age keyi saklaytan ve olusan diziyi donduren kodu yaziniz
+
+   const teamFullName = team.map((p) =>  {
+
+    return  {
+
+        fullName: p.name.toUpperCase() + " " + p.surname.toUpperCase(),
+        age:p.age + 5
+    }
+   })
+
+   console.log(teamFullName)
+
+   //* Alternatiw way   arrow suslusunu kaldirdik ve block icerisnde oldugunu gostermek icin normal paranteze aldik . cunku tek statement 
+   const teamFullName1 = team.map((p) =>  
+
+      ({
+
+        fullName: p.name.toUpperCase() + " " + p.surname.toUpperCase(),
+        age:p.age + 5
+    })
+   )
+
+   console.log(teamFullName1)
