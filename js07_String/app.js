@@ -96,3 +96,4 @@ let str = "Hello John , welcome to Clarusway."
 let mail = prompt ('Email adresini giriniz:')
 
 console.log(mail.includes("@"))
+
