@@ -104,3 +104,6 @@ console.log("*** Strings *** ")
 let str = "Hello John , Welcome to Clarusway" 
 
 console.log(str.lastIndexOf("o")) //* 22 
+
+
+// * seach methods
