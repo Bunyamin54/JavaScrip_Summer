@@ -12,7 +12,7 @@ console.log(number1)
 
 const func1 = () => {
     number1 = 44  //? local degisken 
-    let number2= 7  //? local block-scoped degisken
+    const number2= 7  //? local block-scoped degisken
 
     console.log("LOCAL:", number2)
 }
