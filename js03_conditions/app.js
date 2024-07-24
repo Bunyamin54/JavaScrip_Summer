@@ -98,6 +98,14 @@ console.log("*** Conditions ***")
 // console.log(score)
 
 //? Nesteds ternry anlasilabilirligi azaltiyor 
-const speed = 110
+// const speed = 110
 
-speed > 120 ? console.log("Speedy") : speed >= 90 ? console.log("Normal") : console.log("Low Speed")
+// speed > 120 ? console.log("Speedy") : speed >= 90 ? console.log("Normal") : console.log("Low Speed")
+
+if( speed >120) {
+    console.log("Speedy")
+}else if(speed >= 90 ){
+    console.log("Normal")
+}else {
+    console.log("Low Speed")
+}
