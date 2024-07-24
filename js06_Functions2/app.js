@@ -75,3 +75,6 @@ const n2 = + prompt("Second Number:")
 const operator= prompt("Operator:")
 
 console.log (`${n1} ${operator} ${n2} = ${compute(n1,n2, operator)}`)
+
+
+//? Fibonaci oz yenileme  faktoriel  oz yinemeli fonksiyonlar
