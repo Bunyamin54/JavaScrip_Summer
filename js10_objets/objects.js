@@ -101,10 +101,14 @@
 
          },
 
-         summary: () => {
+        //  summary: () => {
+        //     return ` ${this.name} is ${this.calculateAge()} years old`
+         summary: function () => {
             return ` ${this.name} is ${this.calculateAge()} years old`
              //* arrow callback icin kullanmak mantikli arrow function ana scope baglidir. Lexical scope  dur bulundugu scope gostermez , ana scope window gosterir
          }
+
+          //* Objelerin icersindeki functonlari arrow ile yazmayalaim , expression function ile yazalim. 
        }
 
        console.log(personel.name + " " + personel.surname)
