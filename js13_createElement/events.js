@@ -41,4 +41,14 @@ const text = document.createTextNode("langInput.value")
  newP.setAttribute("name", "new-class")
  newP.setAttribute("type", "button")
 
-//? classList
+//? ClassList
+
+
+newP.classList.add("bg-danger", "border", "border-2", "border-succes")
+
+//* contains - iceriyoru mu ?
+console.log(newP.classList.contains("new-class"))
+
+if(newP.classList.contains("border")) {
+    newP.classList.add("border-succes")
+}
