@@ -31,5 +31,5 @@ window.addEventListener("load", () => {
 const addBtn = document.querySelector("#btn")
 
 addBtn.addEventListener("click", () => {
-    
+   console.log("Btn Clicked") 
 })
