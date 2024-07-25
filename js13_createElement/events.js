@@ -33,3 +33,12 @@ const text = document.createTextNode("langInput.value")
 
  newP.id = "paragraf"
  newP.className = "par"
+
+ //? setAttribute()
+
+ newP.setAttribute("id", "new-id")
+ newP.setAttribute("class", "new-class")
+ newP.setAttribute("name", "new-class")
+ newP.setAttribute("type", "button")
+
+//? classList
