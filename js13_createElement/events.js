@@ -46,9 +46,13 @@ const text = document.createTextNode("langInput.value")
 
 newP.classList.add("bg-danger", "border", "border-2", "border-succes")
 
-//* contains - iceriyoru mu ?
+//* Classlists contains - iceriyoru mu ?
 console.log(newP.classList.contains("new-class"))
 
 if(newP.classList.contains("border")) {
     newP.classList.add("border-succes")
 }
+
+ //* ClassList.toggle()  -tersleme varsa kaldirir yoksa ekler icerirse kaldirir icermezse ekler
+
+ newP.classList.toggle("bg-danger")
