@@ -15,6 +15,15 @@ heading1.onmouseout= function() {
     heading1.style.color = "black"
 }
 
+const printHello = () => {
+    document.write("Hello")
+}
+
 //* onload event i tum html ve css kodlarinin yuklenmesini bekler
 
 window.onload = printHello()
+
+
+window.addEventListener("load", () => {
+    document.getElementById("input").focus()
+})
