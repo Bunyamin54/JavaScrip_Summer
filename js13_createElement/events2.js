@@ -27,3 +27,9 @@ window.onload = printHello()
 window.addEventListener("load", () => {
     document.getElementById("input").focus()
 })
+
+const addBtn = document.querySelector("#btn")
+
+addBtn.addEventListener("click", () => {
+    
+})
