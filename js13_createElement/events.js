@@ -26,3 +26,10 @@ const text = document.createTextNode("langInput.value")
  const itemListSection = document.querySelector(".item-list")
 
  itemListSection.before(newP)
+
+ //* ID- CLASS
+
+ //? 1. YONTEM
+
+ newP.id = "paragraf"
+ newP.className = "par"
