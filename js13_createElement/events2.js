@@ -50,4 +50,13 @@ addBtn.addEventListener("click", (e) => {
     input.value = ""
     input.focus()
     }})
+  //* input uzerinde iken bir klavye tusuna basilirsa 
+document.querySelector("#input").addEventListener("keydown", (e) => {
+    // console.log(e.code)
+    // console.log(e.KeyCode)
+//? Basilan tus Enter ise 
 
+    if(e.code === "Enter") {
+        addBtn.click()  //? add butonuna tiklnama fonksiyonunu calistirir
+    }
+})
