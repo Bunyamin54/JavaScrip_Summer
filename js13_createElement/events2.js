@@ -37,14 +37,17 @@ addBtn.addEventListener("click", (e) => {
 //    console.log("Btn Clicked") 
 //    console.log(e.target.value)
 
-const input = document.querySelector("input")
 
-
-const li = document.createElement("li")
-
-ul.appendChild(li)
-
-const textLi = document.createTextNode(input.value)
-li.appendChild(textLi)
-})
+    if(!input.value) {
+    alert("Please enter a comment")
+    }else {
+    const input = document.querySelector("#input")
+    const li = document.createElement("li")
+    ul.appendChild(li)
+    const textLi = document.createTextNode(input.value)
+    li.appendChild(textLi)
+    
+    input.value = ""
+    input.focus()
+    }})
 
