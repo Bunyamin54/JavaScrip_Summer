@@ -76,4 +76,23 @@ if(newP.classList.contains("border")) {
 
  //? 2. yontem  getAtribute
 
- console.log(newP.getAttribute("type"))
+ console.log(newP.getAttribute("type")) 
+
+ //* Yeni bir element olusturma (InnerHtml)
+
+ const newDiv = document.createElement("div")
+
+ newDiv.id = "my-div"
+
+ itemListSection.after(newDiv)
+ newDiv.innerHTML= `<ul>
+   <h2 >Languages</h2>
+ <li> C++ </li>
+ <li> JAVA </li>
+ <li> JAVASCRIPT </li>
+ <li> NODE-JS </li>
+ <li> REACT </li>
+ 
+ </ul> `
+ 
+
