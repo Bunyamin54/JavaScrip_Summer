@@ -30,7 +30,14 @@ window.addEventListener("load", () => {
 
 const addBtn = document.querySelector("#btn")
 
+
+const ul = document.createElement("ul")
+document.querySelector(".item-list").before(ul)
 addBtn.addEventListener("click", (e) => {
-   console.log("Btn Clicked") 
-   console.log(e)
+//    console.log("Btn Clicked") 
+//    console.log(e.target.value)
+
+const input = document.querySelector("input")
+
 })
+
