@@ -53,6 +53,16 @@ if(newP.classList.contains("border")) {
     newP.classList.add("border-succes")
 }
 
+
+ //* Classlist.remove()
+
+ if(!newP.classList.contains("new-class")) {
+    newP.classList.remove("new-class")
+ }
+
+ 
  //* ClassList.toggle()  -tersleme varsa kaldirir yoksa ekler icerirse kaldirir icermezse ekler
 
  newP.classList.toggle("bg-danger")
+
+ 
