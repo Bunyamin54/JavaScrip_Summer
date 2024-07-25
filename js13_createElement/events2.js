@@ -1,3 +1,5 @@
 console.log("*** Events ***")
 
-//* onclick , onload, onmouseover, onmouseout, onchange, onsubmit,onkeyup
+//* Onclick , Onload, Onmouseover, Onmouseout, Onchange, Onsubmit,Onkeyup
+
+//* Inline Events
