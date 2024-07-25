@@ -39,5 +39,12 @@ addBtn.addEventListener("click", (e) => {
 
 const input = document.querySelector("input")
 
+
+const li = document.createElement("li")
+
+ul.appendChild(li)
+
+const textLi = document.createTextNode(input.value)
+li.appendChild(textLi)
 })
 
