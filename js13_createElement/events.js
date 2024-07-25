@@ -60,8 +60,8 @@ if(newP.classList.contains("border")) {
     newP.classList.remove("new-class")
  }
 
- 
- //* ClassList.toggle()  -tersleme varsa kaldirir yoksa ekler icerirse kaldirir icermezse ekler
+
+ //* ClassList.toggle()  -tersleme varsa kaldirir yoksa ekler icerirse kaldirir icermezse ekler- bir class varsa kaldirir yoksa ekler
 
  newP.classList.toggle("bg-danger")
 
