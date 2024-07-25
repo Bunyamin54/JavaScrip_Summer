@@ -66,3 +66,14 @@ if(newP.classList.contains("border")) {
  newP.classList.toggle("bg-danger")
 
  
+
+ //* ID, CLASS GIBI OZELLIKLERI OKUMA (READING)
+
+ //? 1-.yontem
+
+ console.log(newP.id)
+ console.log(newP.className)
+
+ //? 2. yontem  getAtribute
+
+ console.log(newP.getAttribute("type"))
