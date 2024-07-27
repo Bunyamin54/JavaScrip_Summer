@@ -59,19 +59,22 @@ const scoreCardSection = document.querySelector(".score-card")
 
      const calculateResult = () => {
      
-         if(userSelectImg.alt === pcSelectImg.alt) {
-        draw()
-
-         }
-
-         const draw = () => {
-
-            messagePar.textContent= "Its a draw"
-            scoreCardSection.style.color = YELLOW
-         }
-
+        if (userSelectImg.alt === pcRandom) {
+            draw()
+          } else {
+            if (userSelectImg.alt === "rock") {
+              pcRandom === "paper" ? youLost() : youWin()
+            } else if (userSelectImg.alt === "scissor") {
+              pcRandom === "rock" ? youLost() : youWin()
+            } else if (userSelectImg.alt === "paper") {
+              pcRandom === "scissor" ? youLost() : youWin()
+            }
+          }
+        
+          if (pcScoreSpan.textContent === "10" || yourScoreSpan.textContent === "10") {
+            openModal()
+          }
         }
-
 
 
 
