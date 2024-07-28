@@ -120,7 +120,7 @@ const playAgainBtn = document.getElementById("play-again")
      if(yourScoreSpan.textContent ===" 10"){
    finalMessagePar.textContent = ("🤩You Win")
    document.querySelector(".modal").style.backgroundColor = GREEN
-
+  playAgainBtn.style.color = GREEN
      }
    }
 
