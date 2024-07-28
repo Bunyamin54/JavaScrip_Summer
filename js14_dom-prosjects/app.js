@@ -51,8 +51,12 @@ const playAgainBtn = document.getElementById("play-again")
 })
 
   playAgainBtn.addEventListener("click", () => {
-
-    
+ 
+   modalCardSection.classList.toggle("show")  //* toggle yoksa ekle yoksa kaldir. 
+  //  modalCardSection.classList.toggle("show")
+  //  modalCardSection.classList.toggle("remove")
+  //  modalCardSection.style.display("none")
+  window.location.reload()  //* sayfayi sifirliyor react ortaminda tavsiye edilmez...
 
   })
 
