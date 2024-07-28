@@ -19,6 +19,9 @@
  const RED ="#5ab7ac"
  const GREEN ="#5ab7ac"
 
+ //* Modal
+ const modalCardSection = document.querySelector(".modal-card")
+
 //* massage
 
 const messagePar= document.querySelector(".message")
@@ -111,7 +114,7 @@ const yourScoreSpan = document.getElementById("your-score")
 
    const openModal = () => {
 
-    
+     modalCardSection.classList.add("show")
    }
 
 
