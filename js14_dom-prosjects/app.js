@@ -32,6 +32,7 @@ const messagePar= document.querySelector(".message")
 const scoreCardSection = document.querySelector(".score-card")
 const pcScoreSpan = document.getElementById("pc-score")
 const yourScoreSpan = document.getElementById("your-score")
+const playAgainBtn = document.getElementById("play-again")
 
  //* Event Listeners
 
