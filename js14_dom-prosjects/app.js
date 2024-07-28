@@ -121,6 +121,10 @@ const playAgainBtn = document.getElementById("play-again")
    finalMessagePar.textContent = ("🤩You Win")
    document.querySelector(".modal").style.backgroundColor = GREEN
   playAgainBtn.style.color = GREEN
+     }else {
+      finalMessagePar.textContent = ("😁You Lost")
+   document.querySelector(".modal").style.backgroundColor = RED
+  playAgainBtn.style.color = RED
      }
    }
 
