@@ -70,6 +70,10 @@ const yourScoreSpan = document.getElementById("your-score")
             } else if (userSelectImg.alt === "paper") {
               pcRandom === "scissor" ? youLost() : youWin()
             }
+
+            if (pcScoreSpan.textContent=== "10" || yourScoreSpan.textContent === "10") {
+              openModal()
+            }
           }
         
           if (pcScoreSpan.textContent === "10" || yourScoreSpan.textContent === "10") {
@@ -105,7 +109,10 @@ const yourScoreSpan = document.getElementById("your-score")
   }
 
 
+   const openModal = () => {
 
+    
+   }
 
 
   //* Event Listeners
