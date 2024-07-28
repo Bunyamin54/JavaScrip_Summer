@@ -117,7 +117,7 @@ const yourScoreSpan = document.getElementById("your-score")
      modalCardSection.classList.add("show")
 
      if(yourScoreSpan.textContent ===" 10"){
-
+   finalMessagePar.textContent = ("🤩You Win")
 
      }
    }
