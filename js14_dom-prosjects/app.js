@@ -174,7 +174,9 @@ const playAgainBtn = document.getElementById("play-again")
 //   yourChoiceDiv.appendChild(image) 
 // })
  
+//* Client Side  bir bilginin kalici hale gelmesi icin 
 
+//* localStorage sinirli veri tabani 
 
 //* Cookies kalici veritabani siz silene kadar storage de durur
 
