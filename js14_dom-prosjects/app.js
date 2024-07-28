@@ -176,9 +176,9 @@ const playAgainBtn = document.getElementById("play-again")
  
 //* Client Side  bir bilginin kalici hale gelmesi icin 
 
-//* localStorage sinirli veri tabani 
+//* localStorage sinirli kapasiteli veri tabani -   iz silene kadar verileri saklar
 
 //* Cookies kalici veritabani siz silene kadar storage de durur
 
 //* Local storage (String)  browser tabanli bellecklerdir
-//* Sesions storage (String)  Windovs kapsaminda tabanli belleklerdir.
+//* Sesions storage (String)  Windovs kapsaminda tabanli belleklerdir. Pencere kapaninca veriler silinir 
