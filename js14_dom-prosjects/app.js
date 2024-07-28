@@ -182,3 +182,4 @@ const playAgainBtn = document.getElementById("play-again")
 
 //* Local storage (String)  browser tabanli bellecklerdir
 //* Sesions storage (String)  Windovs kapsaminda tabanli belleklerdir. Pencere kapaninca veriler silinir 
+//* IndexDB (Clien based database)
