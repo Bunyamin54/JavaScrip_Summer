@@ -118,6 +118,7 @@ const yourScoreSpan = document.getElementById("your-score")
 
      if(yourScoreSpan.textContent ===" 10"){
    finalMessagePar.textContent = ("🤩You Win")
+    modalCardSection.style.backgroundColor = GREEN
 
      }
    }
