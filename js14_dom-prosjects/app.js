@@ -21,7 +21,7 @@
 
  //* Modal
  const modalCardSection = document.querySelector(".modal-card")
-
+ const finalMessagePar = document.getElementById("final-message")
 //* massage
 
 const messagePar= document.querySelector(".message")
@@ -115,6 +115,11 @@ const yourScoreSpan = document.getElementById("your-score")
    const openModal = () => {
 
      modalCardSection.classList.add("show")
+
+     if(yourScoreSpan.textContent ===" 10"){
+
+
+     }
    }
 
 
