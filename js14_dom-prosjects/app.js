@@ -173,6 +173,7 @@ const playAgainBtn = document.getElementById("play-again")
 //   image.alt= "scissor"
 //   yourChoiceDiv.appendChild(image) 
 // })
+//? Browser tabanli belleklerdir. 
  
 //* Client Side  bir bilginin kalici hale gelmesi icin 
 
