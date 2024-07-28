@@ -174,3 +174,9 @@ const playAgainBtn = document.getElementById("play-again")
 //   yourChoiceDiv.appendChild(image) 
 // })
  
+
+
+//* Cookies kalici veritabani siz silene kadar storage de durur
+
+//* Local storage (String)  browser tabanli bellecklerdir
+//* Sesions storage (String)  Windovs kapsaminda tabanli belleklerdir.
