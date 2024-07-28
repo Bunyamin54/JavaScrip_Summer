@@ -11,7 +11,7 @@
 
  let userSelectImg = document.createElement("img")
  let pcSelectImg = document.createElement("img")
-
+ let pcRandom
 
  //? colors
 
@@ -27,13 +27,15 @@ const messagePar= document.querySelector(".message")
 //* Score
 
 const scoreCardSection = document.querySelector(".score-card")
+const pcScoreSpan = document.getElementById("pc-score")
+const yourScoreSpan = document.getElementById("your-score")
 
  //* Event Listeners
 
    
 
   selectionArticle.addEventListener("click", (e) => {
-  console.log(e.target.id)
+  // console.log(e.target.id)
 
    if(e.target.id) {
     userSelectImg.src =` ./assets/${e.target.id}.png`
@@ -47,12 +49,11 @@ const scoreCardSection = document.querySelector(".score-card")
 
    const createPcSelection = () => {
    const pcArr = ["rock", "paper", "scissor"]
-   const pcRandom = pcArr[Math.floor(Math.random() * 3)]
+  pcRandom = pcArr[Math.floor(Math.random() * 3)]
    pcSelectImg.src = `./assets/${pcRandom}.png`
    pcSelectImg.alt = pcRandom   
    pcChoiceDiv.appendChild(pcSelectImg)
-
-   calculateResult()
+  calculateResult()
 
 }
       
@@ -78,8 +79,30 @@ const scoreCardSection = document.querySelector(".score-card")
 
 
 
+          const draw = () => {
+            messagePar.textContent = "Its a draw"
+            scoreCardSection.computedStyleMap.color = YELLOW
+            messagePar.style.backgroundColor = YELLOW
+          }
+  const youLost = () => {
 
 
+    messagePar.textContent = "you Lost"
+    scoreCardSection.computedStyleMap.color = RED
+    messagePar.style.backgroundColor = RED
+    pcScoreSpan.textContent++
+  }
+
+
+
+  const youWin = () => {
+
+    messagePar.textContent = "You Win"
+    scoreCardSection.computedStyleMap.color = GREEN
+    messagePar.style.backgroundColor = GREEN
+    pcScoreSpan.textContent++
+    
+  }
 
 
 
