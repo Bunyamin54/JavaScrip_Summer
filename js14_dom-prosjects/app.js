@@ -49,6 +49,14 @@ const playAgainBtn = document.getElementById("play-again")
 
    } 
 })
+
+  playAgainBtn.addEventListener("click", () => {
+
+    
+
+  })
+
+
      //* Functions 
 
    const createPcSelection = () => {
@@ -111,7 +119,7 @@ const playAgainBtn = document.getElementById("play-again")
     pcScoreSpan.textContent++
     
   }
-
+  //? Modal ac
 
    const openModal = () => {
 
