@@ -8,6 +8,13 @@ const ekleFormu = document.getElementById("ekle-formu")
  const gelirinizTd= document.getElementById("geliriniz")
 
 
+ //? harcama formu 
+
+ const harcamaFormu = document.getElementById("harcama-formu")
+ const harcamaAlaniInput = document.getElementById("harcama-alani")
+ const tarihInput = document.getElementById("tarih")
+ const miktarInput = document.getElementById("miktar")
+
 //? Variables
 
 let gelirler = 0
@@ -16,6 +23,9 @@ let gelirler = 0
 
 
 //? Events
+
+
+
 
 //? formun submit butonuna basildiginda
 
@@ -37,6 +47,17 @@ ekleFormu.addEventListener("submit", (e) => {
 
       hesaplaVeGuncelle()
 })
+
+//? harcama formu submit edildiginde calisir
+
+  harcamaFormu.addEventListener("submit", () => {
+
+     e.preventDefault()
+     const yeniHarcama = { id: "" , tarih:"", alan: "", miktar: ""}
+
+
+  })
+
 
 //! Sayfa heryuklendikten sonra calisan event
 
