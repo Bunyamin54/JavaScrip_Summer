@@ -19,7 +19,7 @@ let gelirler = " "
 ekleFormu.addEventListener("submit", (e) => { 
     
     e.preventDefault() // reload"u engeller
-    gelirler += gelirInput.value
+    gelirler = Number(gelirler) + Number ( gelirInput.value)
     ekleFormu.reset()
 
     console.log(gelirler)
