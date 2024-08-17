@@ -38,9 +38,12 @@ ekleFormu.addEventListener("submit", (e) => {
       hesaplaVeGuncelle()
 })
 
+//! Sayfa heryuklendikten sonra calisan event
+
 window.addEventListener("load", () => {
 
   gelirler = Number( localStorage.getItem("gelirler"))
+  hesaplaVeGuncelle()
    
 })
 //? Functions
