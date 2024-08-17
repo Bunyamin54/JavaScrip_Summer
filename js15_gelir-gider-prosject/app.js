@@ -24,10 +24,13 @@ ekleFormu.addEventListener("submit", (e) => {
     e.preventDefault() // reload"u engeller
     gelirler = gelirler + Number ( gelirInput.value) //? string eklemeyi engelledik 
 
+
+    localStorage.setItem("gelirler", gelirler)
+
     //? input degerini sifirladik... 
     ekleFormu.reset()
 
-    
+
 //? Degisiklikleri sonuc tablosuna yazan fonksiyon 
 
 
@@ -35,8 +38,11 @@ ekleFormu.addEventListener("submit", (e) => {
       hesaplaVeGuncelle()
 })
 
+window.addEventListener("load", () => {
 
-
+  gelirler = Number( localStorage.getItem("gelirler"))
+   
+})
 //? Functions
 
 const hesaplaVeGuncelle = () => {
