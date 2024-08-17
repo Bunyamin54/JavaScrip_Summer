@@ -20,6 +20,7 @@ ekleFormu.addEventListener("submit", (e) => {
     
     e.preventDefault() // reload"u engeller
     gelirler += gelirInput.value
+    ekleFormu.reset()
 
     console.log(gelirler)
 })
