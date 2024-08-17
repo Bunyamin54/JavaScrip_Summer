@@ -4,10 +4,13 @@ const ekleBtn = document.getElementById("ekle-btn")
 const gelirInput = document.getElementById("gelir-input")
 const ekleFormu = document.getElementById("ekle-formu")
 
+//? Sonuc tablosu 
+ const gelirinizTd= document.getElementById("geliriniz")
+
 
 //? Variables
 
-let gelirler = " "
+let gelirler = 0
 
 
 
@@ -19,13 +22,25 @@ let gelirler = " "
 ekleFormu.addEventListener("submit", (e) => { 
     
     e.preventDefault() // reload"u engeller
-    gelirler = Number(gelirler) + Number ( gelirInput.value)
+    gelirler = gelirler + Number ( gelirInput.value) //? string eklemeyi engelledik 
+
+    //? input degerini sifirladik... 
     ekleFormu.reset()
 
-    console.log(gelirler)
+    
+//? Degisiklikleri sonuc tablosuna yazan fonksiyon 
+
+
+
+      hesaplaVeGuncelle()
 })
 
 
 
 //? Functions
 
+const hesaplaVeGuncelle = () => {
+
+ gelirinizTd.innerText = gelirler
+
+}
