@@ -18,6 +18,8 @@ const miktarInput = document.getElementById ('miktar');
 
 let gelirler = 0;
 
+let harcamaListesi = []
+
 //? Events
 
 //? formun submit butonuna basildiginda
@@ -49,9 +51,20 @@ harcamaFormu.addEventListener ('submit', (e) => {
    
 
   };
+  
+
+  //? Yeni harcama objesini diziye ekleyecek
+  harcamaListesi.push(yeniHarcama)
+
+
+  
+
+ console.log(harcamaListesi)
+  //? forumdaki verileri siler 
+
   harcamaFormu.reset()
   tarihInput.valueAsDate = new Date()
-   console.log(yeniHarcama)
+
 });
 
 //! Sayfa heryuklendikten sonra calisan event
@@ -62,6 +75,9 @@ window.addEventListener ('load', () => {
 
   hesaplaVeGuncelle ();
 });
+
+
+
 //? Functions
 
 const hesaplaVeGuncelle = () => {
