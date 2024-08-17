@@ -6,6 +6,8 @@ const ekleFormu = document.getElementById ('ekle-formu');
 
 //? Sonuc tablosu
 const gelirinizTd = document.getElementById ('geliriniz');
+const giderinizTd = document.getElementById ('gideriniz');
+const kalanTd = document.getElementById ('kalan');
 
 //? harcama formu
 
@@ -13,6 +15,22 @@ const harcamaFormu = document.getElementById ('harcama-formu');
 const harcamaAlaniInput = document.getElementById ('harcama-alani');
 const tarihInput = document.getElementById ('tarih');
 const miktarInput = document.getElementById ('miktar');
+
+
+
+ //? Harcama tablosu 
+
+ const harcamBody = document.getElementById("harcama-body")
+
+
+
+
+
+
+
+
+
+
 
 //? Variables
 
@@ -22,10 +40,10 @@ let harcamaListesi = []
 
 //? Events
 
-//? formun submit butonuna basildiginda
+// ! formun submit butonuna basildiginda
 
 ekleFormu.addEventListener ('submit', e => {
-  e.preventDefault (); // reload"u engeller
+  e.preventDefault (); // ? reload"u engeller
   gelirler = gelirler + Number (gelirInput.value); //? string eklemeyi engelledik
 
   localStorage.setItem ('gelirler', gelirler);
@@ -38,7 +56,7 @@ ekleFormu.addEventListener ('submit', e => {
   hesaplaVeGuncelle ();
 });
 
-//! harcama formu submit edildiginde calisir
+//! Harcama formu submit edildiginde calisir
 
 harcamaFormu.addEventListener ('submit', (e) => {
   e.preventDefault ();
@@ -57,10 +75,16 @@ harcamaFormu.addEventListener ('submit', (e) => {
   harcamaListesi.push(yeniHarcama)
 
 
-  
+  //? dizinin son halini local stoarage gonder 
+  localStorage.setItem("harcamalar", JSON.stringify(harcamaListesi))
 
- console.log(harcamaListesi)
-  //? forumdaki verileri siler 
+
+
+   harcamayiDomaYaz(yeniHarcama)
+
+   hesaplaVeGuncelle()
+
+  //? Forumdaki verileri siler 
 
   harcamaFormu.reset()
   tarihInput.valueAsDate = new Date()
@@ -83,3 +107,25 @@ window.addEventListener ('load', () => {
 const hesaplaVeGuncelle = () => {
   gelirinizTd.innerText = gelirler;
 };
+
+
+const harcamayiDomaYaz = ({id, miktar,tarih, alan}) => {
+
+ 
+
+  harcamBody.innerHTML += ` 
+<tr>
+<td>${tarih}</td>
+<td>${alan}</td>
+<td>${miktar}</td>
+<td> <i id=${id} class="fa-solid fa-trash-can text-danger"> </i> </td>
+</tr>
+  
+  
+  
+  
+  
+  `
+
+}
+
