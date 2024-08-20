@@ -15,3 +15,20 @@
  
 
 console.log(" -------  Promise ------ ")  //* pendging - baslangis   fullfill basarili  // reject basariz demek olur
+
+//? new Promise (
+//?    /* executor */
+//?    function(resolve,reject){
+//?       .......
+//?    }
+//? )
+
+//? Bir Promise asagidaki state(durumlari) icerebilir:
+//* pending: ilk state, fulfilled veya rejected olmayan
+//* fulfilled:islem basariyla tamamlandini gosteren state.
+//* rejected: islemin basarisizlikla tamamlandigini gosteren state
+
+//! Bir promise bir degerler tamamlanabilir yada bir sebeple (hata) iptal edilebilir.
+//! Bu durumlar then() ve catch() metotlari ile yakalanabilir.
+//? then() ve catch() metotlari promise dondururler.
+//? Zincirleme olarak kullanilabilirler
