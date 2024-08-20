@@ -55,9 +55,9 @@
 
 //* asyncron kodlar arka planda kuyrukda calisirlar..  macrotask kuyrugu 
 
-// setTimeout(() => {
+// setTimeout(() => { 
 //   console.log("Whats up!")
-// },1000)
+// },1000)  //* setTimeOut 1000 sn sonra bu kodu calistir demek
 
 // setTimeout(() => {
 //   console.log("Im fine")
@@ -66,4 +66,11 @@
 
 // console.log("Start")
 
-//* Async (setInterval , clearInterval)
+//* Async (setInterval , clearInterval)  periyoduk bir zaman olusturmak icin 
+
+console.log(" Async (setInterval , clearInterval)")
+
+
+setInterval(() => {
+  
+},1000);  //* setInterval ise her 1000 sn de bu kodu calistir anlamina gelir
