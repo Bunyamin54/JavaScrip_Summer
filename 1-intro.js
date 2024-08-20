@@ -69,8 +69,12 @@
 //* Async (setInterval , clearInterval)  periyoduk bir zaman olusturmak icin 
 
 console.log(" Async (setInterval , clearInterval)")
-
+  let count = 0;
 
 setInterval(() => {
+
+
+   console.log(++count)
+
   
 },1000);  //* setInterval ise her 1000 sn de bu kodu calistir anlamina gelir
