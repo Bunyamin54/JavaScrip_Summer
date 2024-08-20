@@ -10,26 +10,23 @@
 //? fetch() fonksiyonu veri getirmek istediginiz kaynagin yolunu gosteren zorunlu
 //? bir parametre almaktadir ve bu istegin cevabini gosteren bir Promise dondurmektedir.
 
-console.log("----- Fetch Api ---- ")
+console.log ('----- Fetch Api ---- ');
 
 //  try {
-    
+
 //  } catch (error) {
-    
+
 //  }  //* hata yakalama
 
+//* veri cekmede kullanilir network islemlerinde -- dosya okuma yazma kullanilir
 
+//? fetch() zorunlu bir obje alir   http response status codes dondurur  200 - basarili  400 lu client error 500 luk hatalar server hatasi  fetch api arka tarafta istek atici dir bu responsu alip islersin
 
+//* default olarak read istegidir eger method belirtilmezse
 
-//* veri cekmede kullanilir network islemlerinde -- dosya okuma yazma kullanilir 
-
-
-//? fetch() zorunlu bir obje alir   http response status codes dondurur  200 - basarili  400 lu client error 500 luk hatalar server hatasi  fetch api arka tarafta istek atici dir bu responsu alip islersin 
-
-
-//* default olarak read istegidir eger method belirtilmezse 
-
-fetch("https://api.github.com/users" ).then (( res) => console.log(res))
+fetch ('https://api.github.com/users')
+  .then (res => res.json())
+  .then (data => console.log (data));
 
 //* http.get  veri okuma islemidir
 //* http.post  yeni kayit veri girisi
@@ -37,6 +34,4 @@ fetch("https://api.github.com/users" ).then (( res) => console.log(res))
 //* htpp put veri guncelleme tamamen
 //*http delete silme
 
-
-
-//! CRUD  islemleri   post - cread  -  read -get  update  patch put  -- delete  d   Veri tabani islemleri  
+//! CRUD  islemleri   post - cread  -  read -get  update  patch put  -- delete  d   Veri tabani islemleri
