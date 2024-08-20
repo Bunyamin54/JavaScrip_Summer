@@ -22,6 +22,7 @@
  //* ------------------------------------------------
 const delay = (waitingTime) => {
   const startTime = new Date().getTime()
+
   while (new Date().getTime() < startTime + waitingTime){}
 }
 
@@ -29,6 +30,6 @@ const delay = (waitingTime) => {
  console.log("Hello")
 //  alert("blocked") //? blocking 
 
-delay(4000)
+delay(4000) //? blocking code- senkron
 
 console.log("Hi")
