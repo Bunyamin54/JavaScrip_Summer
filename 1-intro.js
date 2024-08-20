@@ -20,18 +20,30 @@
 
 // * Senkron
  //* ------------------------------------------------
-const delay = (waitingTime) => {
-  const startTime = new Date().getTime()
+// const delay = (waitingTime) => {
+//   const startTime = new Date().getTime()
 
-  while (new Date().getTime() < startTime + waitingTime){}
-}
+//   while (new Date().getTime() < startTime + waitingTime){}
+// }
 
 
- console.log("Hello")
+//  console.log("Hello")
 //  alert("blocked") //? blocking 
 
-console.time ("gecikme")  //* debug amacli kullanilabilir
+// console.time ("gecikme")  //* debug amacli kullanilabilir
 
-delay(4000) //? blocking code- senkron
-console.timeEnd("gecikme")
-console.log("Hi")
+// delay(4000) //? blocking code- senkron
+// console.timeEnd("gecikme")
+// console.log("Hi")
+
+
+
+//* Asyncron ( setTimeout())
+
+console.log(" **** Set Timeout ***** ")
+
+setTimeout(() => {
+
+
+  console.log("Data fetched")
+}, 2000)
