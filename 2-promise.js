@@ -32,3 +32,10 @@ console.log(" -------  Promise ------ ")  //* pendging - baslangis   fullfill ba
 //! Bu durumlar then() ve catch() metotlari ile yakalanabilir.
 //? then() ve catch() metotlari promise dondururler.
 //? Zincirleme olarak kullanilabilirler
+
+
+   const networkReq = new Promise ((res, rej) => {
+
+
+
+})
