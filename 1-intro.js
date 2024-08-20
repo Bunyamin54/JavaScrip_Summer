@@ -30,6 +30,8 @@ const delay = (waitingTime) => {
  console.log("Hello")
 //  alert("blocked") //? blocking 
 
-delay(4000) //? blocking code- senkron
+console.time ("gecikme")  //* debug amacli kullanilabilir
 
+delay(4000) //? blocking code- senkron
+console.timeEnd("gecikme")
 console.log("Hi")
