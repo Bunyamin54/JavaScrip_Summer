@@ -28,17 +28,18 @@ console.log ('----- Fetch Api ---- ');
 //   .then (res => res.json())
 //   .then (data => console.log (data));
 
-//* birden fazla islem varsa 
+//* birden fazla islem varsa
 
-fetch ('https://api.github.com/users')  // * ham veriyi api istek atarak almak
-  
-.then ((res) => {  //* return yazmamiz gerekiyor
+// fetch ('https://api.github.com/users') // * ham veriyi api istek atarak almak
+//   .then (res => {
+//     //* return yazmamiz gerekiyor
 
-    console.log(res.status)  //* 200
-    console.log(res.ok)   //* true
-    return res.json()
-})
-  .then (data => console.log (data));
+//     console.log (res.status); //* 200
+//     console.log (res.ok); //* true
+//     return res.json ();
+//   })
+//   .then (data => console.log (data))
+//   .catch (err => console.log (err));
 
 //* http.get  veri okuma islemidir
 //* http.post  yeni kayit veri girisi
@@ -47,3 +48,24 @@ fetch ('https://api.github.com/users')  // * ham veriyi api istek atarak almak
 //*http delete silme
 
 //! CRUD  islemleri   post - cread  -  read -get  update  patch put  -- delete  d   Veri tabani islemleri
+
+  //! Throw errror
+
+
+fetch ('https://api.github.com/user') //* throw error hata firlatma
+  .then (res => {
+   
+  if (!res.ok) {
+    throw new Error("Somethin wnet wrong", res.status)  //* 3-fetchAPI.js:55 
+//*    GET https://api.github.com/user 401 (Unauthorized)
+//*    3-fetchAPI.js:65 
+//*    Error: Somethin wnet wrong
+//*     at 3-fetchAPI.js:59:11
+   ﻿
+   
+  }
+   
+    return res.json ();
+  })
+  .then (data => console.log (data))
+  .catch (err => console.log (err));
