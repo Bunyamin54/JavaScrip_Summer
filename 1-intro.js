@@ -40,13 +40,28 @@
 
 //* Asyncron ( setTimeout())
 
-console.log(" **** Set Timeout ***** ")
-  console.time("timer")
+// console.log(" **** Set Timeout ***** ")
+//   console.time("timer")
 
-setTimeout(() => {
+// setTimeout(() => {
 
-  console.log("Data fetched.")
- console.timeEnd("timer")
-}, 2000)
+//   console.log("Data fetched.")
+//  console.timeEnd("timer")
+// }, 2000)
 
 //* animasyonlarda belli bir sure bekletmek istiyorsaniz kullanabilirsiniz. 
+
+//? Callstack kuyrugu java scriptin kodlarinin onceligini belirler
+
+//* asyncron kodlar arka planda kuyrukda calisirlar..  macrotask kuyrugu 
+
+setTimeout(() => {
+  console.log("Whats up!")
+},1000)
+
+setTimeout(() => {
+  console.log("Im fine")
+}, 2000)
+
+
+console.log("Start")
