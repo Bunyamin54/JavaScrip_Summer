@@ -51,4 +51,6 @@ console.log(" -------  Promise ------ ")  //* pendging - baslangis   fullfill ba
 networkReq.then( (responce ) => console.log(responce)).catch((err) => document.write(err))
 //* Promise structure then- async 
 
-//* costum bir asyn gerkemiyorsa async yazmaya gerek yok 
+//!   costum bir asyn gerkemiyorsa async yazmaya gerek yok 
+
+//! promise async kod blog clas obje yapisina dayaniyor. icerisine 2 tane fonksiyon aliyor resolve og reject  
