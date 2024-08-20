@@ -71,10 +71,14 @@
 console.log(" Async (setInterval , clearInterval)")
   let count = 0;
 
-setInterval(() => {
+const sec1 = setInterval(() => { //* periodik zaman araligi olusturmak icin 
+  
 
 
    console.log(++count)
+   if(count > 9 ) {
+    clearInterval(sec1)  //* clearInterval yardimiyla surekli devam interval pasif hale getirilir
+   }
 
   
 },1000);  //* setInterval ise her 1000 sn de bu kodu calistir anlamina gelir
