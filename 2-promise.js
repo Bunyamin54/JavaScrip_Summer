@@ -49,3 +49,4 @@ console.log(" -------  Promise ------ ")  //* pendging - baslangis   fullfill ba
 })
 
 networkReq.then( (responce ) => console.log(responce)).catch((err) => document.write(err))
+//* Promise structure then- async 
