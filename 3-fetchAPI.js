@@ -27,3 +27,14 @@ console.log("----- Fetch Api ---- ")
 //? fetch() zorunlu bir obje alir   http response status codes dondurur  200 - basarili  400 lu client error 500 luk hatalar server hatasi  fetch api arka tarafta istek atici dir bu responsu alip islersin 
 
 
+fetch("https://api.github.com/users")
+
+//* http.get  veri okuma islemidir
+//* http.post  yeni kayit veri girisi
+//* http.patch  kismi guncelleme
+//* htpp put veri guncelleme tamamen
+//*http delete silme
+
+
+
+//! CRUD  islemleri   post - cread  - post-  read -get  update  patch put  -- delete  d   Veri tabani islemleri  
