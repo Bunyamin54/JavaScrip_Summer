@@ -3,6 +3,8 @@
 //*==================================================
 
 //! Javascript, single-threaded ve Asenkron Programlama dilidir.
+//*  Api aplication programering interface
+//* Synchronous islemler sira sira yapilir Asynchronous - sirasiz sekilde program thread 
 
 //? Asenkron Programlama
 //? --------------------------------------------------------------
@@ -16,3 +18,7 @@
 //? Dosya Okuma/Yazma islemleri gibi zaman tuketen kodlarda Asyn Programlama
 //? kullanilmasi cok onemlidir.
 
+// * Senkron
+ //* ------------------------------------------------
+
+ console.log("ASYNC INTRO")
