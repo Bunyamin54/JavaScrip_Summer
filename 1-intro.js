@@ -4,7 +4,7 @@
 
 //! Javascript, single-threaded ve Asenkron Programlama dilidir.
 //*  Api aplication programering interface
-//* Synchronous islemler sira sira yapilir Asynchronous - sirasiz sekilde program thread 
+//* Synchronous islemler sira sira yapilir Asynchronous - sirasiz sekilde program thread  Web api sayesinde asyncron programlama yapar.
 
 //? Asenkron Programlama
 //? --------------------------------------------------------------
