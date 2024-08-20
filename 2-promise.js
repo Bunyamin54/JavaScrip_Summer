@@ -36,6 +36,16 @@ console.log(" -------  Promise ------ ")  //* pendging - baslangis   fullfill ba
 
    const networkReq = new Promise ((res, rej) => {
 
+   const data = { a: 1, b:2}
+   const success =Math.floor(Math.random()*5)  //? (0,1,2,3,4,)
 
+  if (success) {
+    console.log("Data Fetched")
+    res(data)
+  } else {
+    rej("Ohh no there is network error")
+  }
 
 })
+
+networkReq.then( (responce ) => console.log(responce)).catch((err) => document.write(err))
