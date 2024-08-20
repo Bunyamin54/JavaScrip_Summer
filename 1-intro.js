@@ -55,13 +55,15 @@
 
 //* asyncron kodlar arka planda kuyrukda calisirlar..  macrotask kuyrugu 
 
-setTimeout(() => {
-  console.log("Whats up!")
-},1000)
+// setTimeout(() => {
+//   console.log("Whats up!")
+// },1000)
 
-setTimeout(() => {
-  console.log("Im fine")
-}, 2000)
+// setTimeout(() => {
+//   console.log("Im fine")
+// }, 2000)
 
 
-console.log("Start")
+// console.log("Start")
+
+//* Async (setInterval , clearInterval)
