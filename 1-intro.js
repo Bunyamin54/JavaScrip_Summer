@@ -20,5 +20,15 @@
 
 // * Senkron
  //* ------------------------------------------------
+const delay = (waitingTime) => {
+  const startTime = new Date().getTime()
+  while (new Date().getTime() < startTime + waitingTime){}
+}
 
- console.log("ASYNC INTRO")
+
+ console.log("Hello")
+//  alert("blocked") //? blocking 
+
+delay(4000)
+
+console.log("Hi")
