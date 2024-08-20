@@ -54,3 +54,5 @@ networkReq.then( (responce ) => console.log(responce)).catch((err) => document.w
 //!   costum bir asyn gerkemiyorsa async yazmaya gerek yok 
 
 //! promise async kod blog clas obje yapisina dayaniyor. icerisine 2 tane fonksiyon aliyor resolve og reject  
+
+//* Fetch api daha cok tercih ediliyor eger costum async gerekmiyorsa 
