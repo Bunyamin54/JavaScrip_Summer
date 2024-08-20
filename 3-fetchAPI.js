@@ -24,8 +24,20 @@ console.log ('----- Fetch Api ---- ');
 
 //* default olarak read istegidir eger method belirtilmezse
 
-fetch ('https://api.github.com/users')
-  .then (res => res.json())
+// fetch ('https://api.github.com/users')  // * ham veriyi api istek atarak almak
+//   .then (res => res.json())
+//   .then (data => console.log (data));
+
+//* birden fazla islem varsa 
+
+fetch ('https://api.github.com/users')  // * ham veriyi api istek atarak almak
+  
+.then ((res) => {  //* return yazmamiz gerekiyor
+
+    console.log(res.status)  //* 200
+    console.log(res.ok)   //* true
+    return res.json()
+})
   .then (data => console.log (data));
 
 //* http.get  veri okuma islemidir
