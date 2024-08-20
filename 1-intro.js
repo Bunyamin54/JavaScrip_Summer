@@ -68,17 +68,32 @@
 
 //* Async (setInterval , clearInterval)  periyoduk bir zaman olusturmak icin 
 
-console.log(" Async (setInterval , clearInterval)")
-  let count = 0;
+// console.log(" Async (setInterval , clearInterval)")
+  // let count = 0;
 
-const sec1 = setInterval(() => { //* periodik zaman araligi olusturmak icin 
+// const sec1 = setInterval(() => { //* periodik zaman araligi olusturmak icin 
   
 
 
-   console.log(++count)
-   if(count > 9 ) {
-    clearInterval(sec1)  //* clearInterval yardimiyla surekli devam interval pasif hale getirilir
-   }
+  //  console.log(++count)
+  //  if(count > 9 ) {
+  //   clearInterval(sec1)  //* clearInterval yardimiyla surekli devam interval pasif hale getirilir
+  //  }
 
   
-},1000);  //* setInterval ise her 1000 sn de bu kodu calistir anlamina gelir
+// },1000);  //* setInterval ise her 1000 sn de bu kodu calistir anlamina gelir.
+
+//* Callback  birbirne bagimli async kodlarin yazilmasi nested callback
+
+setTimeout(() => {
+  console.log("john:Hi")
+  setTimeout(() => {
+    console.log("Sarah: Hello")
+    setTimeout(() => {
+      console.log("John: How Are you?")
+      setTimeout(() => {
+        console.log("Sarah:Fine and you?")
+      }, 1000)
+    }, 1000)
+  }, 1000)
+}, 1000)
