@@ -41,9 +41,12 @@
 //* Asyncron ( setTimeout())
 
 console.log(" **** Set Timeout ***** ")
+  console.time("timer")
 
 setTimeout(() => {
 
-
-  console.log("Data fetched")
+  console.log("Data fetched.")
+ console.timeEnd("timer")
 }, 2000)
+
+//* animasyonlarda belli bir sure bekletmek istiyorsaniz kullanabilirsiniz. 
