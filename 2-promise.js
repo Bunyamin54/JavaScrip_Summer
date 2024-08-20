@@ -12,4 +12,6 @@
 //* 3- Executor fonksiyona ise 2 argument gecirilir: resolve ve reject fonksiyonlari
 //* 4- resolve fonksiyonu promise'in basariyla bittiginda, reject ise
 //*    basarisizlikla bittiginde isletilirler.
+ 
 
+console.log(" -------  Promise ------ ")  //* pendging - baslangis   fullfill basarili  // reject basariz demek olur
