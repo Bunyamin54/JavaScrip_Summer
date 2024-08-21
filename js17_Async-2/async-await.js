@@ -18,3 +18,13 @@
 //* satirdaki kodun durdurulmasini saglar.
 //* Yapilan istek yerine getirilip sonuc degerlerinin dondurulmesi ile kodun calismasi devam eder.
 
+//! asyn -key word function onune veya arroda parentezin onune konulur
+
+//! vefunctino ile yazilir-  syncron gozukur ama islemi asyncron yapar
+
+//! await key wordu ise fetch(url) onune konur
+
+//? ornek   -   const getNews = async function () { async function yazma
+//?             const res = await fetch (url)    request atma
+//?             const data = await res.JSON()   datayi cikarma
+// ?}
