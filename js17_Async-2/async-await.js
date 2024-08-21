@@ -27,4 +27,5 @@
 //? ornek   -   const getNews = async function () { async function yazma
 //?             const res = await fetch (url)    request atma
 //?             const data = await res.JSON()   datayi cikarma
+//?             updateDom (data)   gelen veriyi gonderdik.
 // ?}
